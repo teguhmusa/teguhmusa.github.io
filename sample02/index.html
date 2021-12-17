@@ -758,7 +758,10 @@
             }
         </script>
         <script>
-            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            const to = urlParams.get('to')
+            if (to != ''){
+            document.getElementById("demo").innerHTML = to;
+            }
         </script>
 
 </body>
