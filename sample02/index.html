@@ -760,11 +760,11 @@
         <script>
             const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
-            const to = urlParams.get('to')
-            if (to != ""){
-            document.getElementById("demo").innerHTML = to;
-            } else {
+            var to = urlParams.get('to')
+            if (to === ""){
             document.getElementById("demo").innerHTML = "Tamu Undangan";
+            } else {
+            document.getElementById("demo").innerHTML = to;
             }
         </script>
 
