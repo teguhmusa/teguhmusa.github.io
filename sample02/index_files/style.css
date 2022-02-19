@@ -4,51 +4,63 @@ html {
     font-family: "Lato", sans-serif;
     font-size: 0.9rem;
 }
+
 body.overclosed {
     overflow: hidden;
 }
+
 canvas {
-    display: block;
+    display: ruby-base;
     vertical-align: top;
     top: 0;
     position: absolute;
 }
+
 .fixed-bottom {
     z-index: 4;
 }
+
 .navbar {
     padding: 0;
     box-shadow: 0 -6px 10px -5px hsla(0, 0%, 44.3%, 0.3);
 }
+
 .navbar .navbar-nav .nav-item {
     font-weight: 600;
     font-size: 14px;
     text-align: center;
     letter-spacing: -0.5px;
 }
+
 .navbar .navbar-nav .nav-item .nav-link {
     padding: 0.6rem 2rem 0.3rem 2rem;
     transition: all 0.5s ease-out;
 }
+
 .navbar .navbar-nav .nav-item .nav-link:hover {
     color: #e29f71;
 }
+
 .navbar .navbar-nav .nav-item .nav-link svg {
     font-size: 1.5rem;
     margin-bottom: 0.2rem;
 }
-.navbar-light .navbar-nav .active > .nav-link {
+
+.navbar-light .navbar-nav .active>.nav-link {
     color: #fff;
     background-color: #e29f71;
 }
-.navbar-light .navbar-nav .active > .nav-link:hover {
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
     color: #fff;
 }
+
 .btn-donation,
 .play-pause {
     bottom: 100px !important;
     z-index: 3 !important;
 }
+
 .title {
     position: absolute;
     margin: auto;
@@ -57,27 +69,32 @@ canvas {
     top: 40%;
     bottom: 0;
 }
+
 .big-day {
     font-size: 50px;
     margin-bottom: -10px;
     position: relative;
     top: 10px;
 }
+
 .owl-nav {
     margin-top: 20px;
 }
+
 .owl-nav .owl-next,
 .owl-nav .owl-prev {
     border: solid 2px #e29f71 !important;
     padding: 10px !important;
     margin: 5px !important;
 }
+
 .owl-nav .owl-next span,
 .owl-nav .owl-prev span {
     padding: 0px 12px;
     color: #fe8f89;
     font-size: 20px;
 }
+
 button.owl-next:hover,
 button.owl-prev:hover,
 button.owl-next:active,
@@ -87,6 +104,7 @@ button.owl-prev:focus {
     outline: none !important;
     box-shadow: none !important;
 }
+
 @media (max-width: 992px) {
     .navbar .navbar-nav {
         flex-direction: inherit;
@@ -102,6 +120,7 @@ button.owl-prev:focus {
         bottom: 70px !important;
     }
 }
+
 .cover {
     color: #fff;
     padding: 0 !important;
@@ -112,18 +131,22 @@ button.owl-prev:focus {
     background-size: cover !important;
     z-index: 4;
 }
+
 .cover .mahkota {
     max-width: 225px;
     max-height: 100px;
 }
+
 .page-holder {
     min-height: 100vh;
 }
+
 .bg-cover {
     background-size: cover !important;
     padding: 0px;
     position: relative;
 }
+
 .bg-cover::before,
 .cover::before {
     content: "";
@@ -135,6 +158,7 @@ button.owl-prev:focus {
     top: 0;
     left: 0;
 }
+
 .bg-cover .container {
     position: relative;
 }
@@ -218,12 +242,15 @@ button.owl-prev:focus {
 .custom-shape-divider-bottom-1610289013 .shape-fill {
     fill: #ffffff;
 }
+
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
+    /* 16:9 */
     padding-top: 25px;
     height: 0;
 }
+
 .videoWrapper iframe {
     position: absolute;
     top: 0;
@@ -231,36 +258,44 @@ button.owl-prev:focus {
     width: 100%;
     height: 100%;
 }
+
 section {
     padding: 100px 0px;
     text-align: center;
 }
+
 .couple-ring {
     padding: 2rem;
     border-radius: 20px;
 }
+
 .couple-ring img {
     border-radius: 10px;
 }
+
 .location {
     color: #fff;
     position: relative;
 }
+
 .location .card {
     background-color: transparent;
     border: solid 2px #fff;
     margin-bottom: 10px;
     border-radius: 10px;
 }
+
 .location .date {
     line-height: 30px;
     border-right: solid 1px #fff;
     border-left: solid 1px #fff;
 }
+
 .location .date span {
     font-size: 2rem;
     font-weight: 700;
 }
+
 .location::before {
     content: "";
     width: 100%;
@@ -272,14 +307,17 @@ section {
     left: 0;
     opacity: 0.9;
 }
+
 .desc-location {
     font-style: italic;
 }
+
 .timer-wrapper .card {
     background: #e29f71;
     color: #fff;
     margin-bottom: 20px;
 }
+
 .parallax {
     position: relative;
     min-height: 300px;
@@ -289,11 +327,13 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 @media (max-width: 576px) {
     .parallax {
         background-attachment: scroll;
     }
 }
+
 .parallax::before {
     content: "";
     width: 100%;
@@ -305,11 +345,13 @@ section {
     left: 0;
     opacity: 0.6;
 }
+
 .btn-secondary {
     color: #fff;
     background-color: #7c7c7d;
     border-color: #6e6e6f;
 }
+
 h1,
 h2 {
     font-family: "Satisfy", cursive;
@@ -317,51 +359,64 @@ h2 {
     line-height: 0.8 !important;
     letter-spacing: 2px;
 }
+
 h3,
 .serif {
     font-family: "Noto Serif", serif;
     font-weight: 700;
     font-size: 1.5rem;
 }
+
 .information h3 {
     font-size: 2rem;
     color: #fff;
     font-family: "Satisfy", cursive;
 }
+
 .information h3 hr {
     background: #fdbd91;
     width: 30px;
     height: 3px;
 }
+
 .guestbook {
     background: url(./images/pattern-opaticy-new.png);
 }
+
 .guestbook .card {
     background: rgb(226 196 175);
 }
+
 .gallery {
     position: relative;
 }
+
 .caption {
     color: #e29f72;
     font-size: 2.5rem;
 }
+
 .form-control:disabled,
 .form-control[readonly] {
     background-color: #fff;
 }
+
 footer {
     text-align: center;
     padding: 20px 0 120px;
 }
+
 footer img {
     max-width: 100px;
 }
+
 footer small {
     display: block;
 }
 
+
 /* Small devices (landscape phones, 576px and up) */
+
 @media (max-width: 576px) {
     .display-1 {
         font-size: 3.3rem;
@@ -378,14 +433,18 @@ footer small {
     }
 }
 
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
 @media (max-width: 992px) {
     footer {
         padding: 20px 0 70px;
     }
 }
 
+
 /* Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
     .bg-cover {
         padding-top: 50px;
@@ -402,9 +461,10 @@ footer small {
     }
 }
 
+
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+
+@media (min-width: 1200px) {}
 
 .show-guest-book .container {
     max-width: 600px;
@@ -417,6 +477,7 @@ footer small {
     position: relative;
     background-color: #fff;
 }
+
 .show-guest-book .media-comment {
     border-bottom: solid 1px rgb(226 196 175);
 }
