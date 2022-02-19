@@ -22352,7 +22352,7 @@ p {
 }
 
 .main-menu>li>.nav-link:hover {
-    color: #4240db !important
+    color: #514ee9 !important
 }
 
 @media (min-width:992px) {
@@ -25475,7 +25475,7 @@ p {
 }
 
 .case-study-page .cta-section {
-    background-color: #19191b;
+    background-color: #7373e4;
     position: relative
 }
 
