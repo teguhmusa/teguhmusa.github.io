@@ -22251,8 +22251,10 @@ p {
     width: 200px;
     height: 60px;
     border-radius: 5px;
-    border: 1px solid #f38580;
-    background: #fe908b;
+    /*border: 1px solid #f38580;
+    background: #fe908b;*/
+    border: 1px solid #3f32ec;
+    background: #4438e6;
     color: #fff;
     font-family: CircularStd, sans-serif;
     font-size: 20px;
@@ -22350,7 +22352,7 @@ p {
 }
 
 .main-menu>li>.nav-link:hover {
-    color: #fe908b !important
+    color: #4240db !important
 }
 
 @media (min-width:992px) {
@@ -22710,12 +22712,13 @@ p {
 }
 
 .btn--primary.hvr-bounce-to-left::before, .btn--red.hvr-bounce-to-left::before {
-    background: #f9544b;
+    /*background: #f9544b;*/
+    background: #5269e9;
     color: #fff
 }
 
 .btn--primary.hvr-bounce-to-left:hover::before, .btn--red.hvr-bounce-to-left:hover::before {
-    background: #f9544b;
+    background: #5269e9;
     color: #fff
 }
 
@@ -22821,7 +22824,7 @@ p {
 }
 
 .image-card-2 .card-icon {
-    background-color: #5454d4;
+    background-color: #fc62a2;
     min-width: 31px;
     max-width: 31px;
     min-height: 31px;
@@ -22870,11 +22873,23 @@ p {
     background-color: #fe908b
 }
 
+.image-card-2.card-blue {
+    background-color: #5b66fa
+}
+
 .image-card-2.card-red .date {
     color: #fff
 }
 
 .image-card-2.card-red p {
+    color: #fff
+}
+
+.image-card-2.card-blue .date {
+    color: #fff
+}
+
+.image-card-2.card-blue p {
     color: #fff
 }
 
