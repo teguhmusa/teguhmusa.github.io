@@ -127,21 +127,21 @@ input[type=number] {
 }
 
 .section-padding {
-    padding-top: 35px;
-    padding-bottom: 35px
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 @media (min-width:768px) {
     .section-padding {
-        padding-top: 60px;
-        padding-bottom: 60px
+        padding-top: 80px;
+        padding-bottom: 80px
     }
 }
 
 @media (min-width:992px) {
     .section-padding {
-        padding-top: 80px;
-        padding-bottom: 80px
+        padding-top: 120px;
+        padding-bottom: 120px
     }
 }
 
@@ -22235,10 +22235,8 @@ p {
     width: 200px;
     height: 60px;
     border-radius: 5px;
-    /*border: 1px solid #f38580;
-    background: #fe908b;*/
-    background: #5454d4;
-    border: solid 1px #4949c5;
+    border: 1px solid #f38580;
+    background: #fe908b;
     color: #fff;
     font-family: CircularStd, sans-serif;
     font-size: 20px;
@@ -22248,13 +22246,13 @@ p {
 
 .btn--primary.hvr-bounce-to-left::before,
 .btn--red.hvr-bounce-to-left::before {
-    background: #4141b9;
+    background: #f9544b;
     color: #fff
 }
 
 .btn--primary.hvr-bounce-to-left:hover::before,
 .btn--red.hvr-bounce-to-left:hover::before {
-    background: #4141b9;
+    background: #f9544b;
     color: #fff
 }
 
@@ -22345,7 +22343,7 @@ p {
 }
 
 .main-menu>li>.nav-link:hover {
-    color: #5454d4 !important
+    color: #fe908b !important
 }
 
 @media (min-width:992px) {
@@ -22688,14 +22686,13 @@ p {
 
 .btn--primary.hvr-bounce-to-left::before,
 .btn--red.hvr-bounce-to-left::before {
-    /*background: #f9544b;*/
-    background: #4141b9;
+    background: #f9544b;
     color: #fff
 }
 
 .btn--primary.hvr-bounce-to-left:hover::before,
 .btn--red.hvr-bounce-to-left:hover::before {
-    background: #4141b9;
+    background: #f9544b;
     color: #fff
 }
 
@@ -22806,7 +22803,7 @@ p {
 }
 
 .image-card-2 .card-icon {
-    background-color: #fc62a2;
+    background-color: #5454d4;
     min-width: 31px;
     max-width: 31px;
     min-height: 31px;
@@ -22855,23 +22852,11 @@ p {
     background-color: #fe908b
 }
 
-.image-card-2.card-blue {
-    background-color: #5b66fa
-}
-
 .image-card-2.card-red .date {
     color: #fff
 }
 
 .image-card-2.card-red p {
-    color: #fff
-}
-
-.image-card-2.card-blue .date {
-    color: #fff
-}
-
-.image-card-2.card-blue p {
     color: #fff
 }
 
@@ -25457,7 +25442,7 @@ p {
 }
 
 .case-study-page .cta-section {
-    background-color: #7373e4;
+    background-color: #19191b;
     position: relative
 }
 
@@ -25498,10 +25483,8 @@ p {
     width: 250px;
     height: 60px;
     border-radius: 10px;
-    background-color: #5454d4;
-    border: solid 1px #4949c5;
-    /*border: 1px solid #f38580;
-    background-color: #fe908b;*/
+    border: 1px solid #f38580;
+    background-color: #fe908b;
     color: #fff;
     font-size: 21px;
     font-weight: 500;
