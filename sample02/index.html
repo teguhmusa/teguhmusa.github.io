@@ -446,6 +446,36 @@
                 <h2 class="caption">Guest Book</h2>
             </div>
         </div>
+        <div class="container">
+            <div class="col-lg-9 mx-auto">
+                <div class="card border-0">
+                    <div class="card-body text-left">
+                        <form method="POST" action="https://demo.datengdong.com/send/3">
+                            <input type=hidden name=_token value="BCki2woC8PvSxHnl1cumxH8FEEc2KrsqlvpAmQ23">
+                            <div class="form-group">
+                                <label for="guestName">Nama</label>
+                                <input type=text class="form-control" id="guestName" name=name value="Prof. Supardi MM" placeholder="Your Name" readonly autocomplete="off">
+                            </div>
+                            <div class="form-group">
+                                <label for="attendance">Kedatangan</label>
+                                <select class="form-control" id="attendance" name=attendance>
+                        <option value="1">Hadir</option>
+
+                        <option value="3">Tidak Hadir</option>
+                        </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Pesan/Doa</label>
+                                <textarea class="form-control" id="message" name=message rows="3" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type=submit class="btn btn-secondary">Kirim <img src=../images/send-b.png alt="send icon" style="width:20px;margin-left:5px"></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="show-guest-book px-2 mt-5 pt-5">
             <div class="container text-left">
