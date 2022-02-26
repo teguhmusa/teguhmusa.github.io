@@ -34,17 +34,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link href="./themes/dancingpiano/style.css?v=1.0.6" rel="stylesheet">
     <link rel="stylesheet" href="./themes/style.css?v=1.2.1">
+    <!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-bottom navbar-light bg-light" id="bot-menu">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item active"><a class="nav-link" href="#home"><svg width=1em height=1em viewBox="0 0 491.398 491.398" class="bi bi-chat-text-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg"><g><g id="Icons_19_"><path d="M481.765,220.422L276.474,15.123c-16.967-16.918-44.557-16.942-61.559,0.023L9.626,220.422 c-12.835,12.833-12.835,33.65,0,46.483c12.843,12.842,33.646,12.842,46.487,0l27.828-27.832v214.872 c0,19.343,15.682,35.024,35.027,35.024h74.826v-97.62c0-7.584,6.146-13.741,13.743-13.741h76.352 c7.59,0,13.739,6.157,13.739,13.741v97.621h74.813c19.346,0,35.027-15.681,35.027-35.024V239.091l27.812,27.815 c6.425,6.421,14.833,9.63,23.243,9.63c8.408,0,16.819-3.209,23.242-9.63C494.609,254.072,494.609,233.256,481.765,220.422z"></g></g></svg><span class="d-none d-lg-block"> Home </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#couple"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path></svg><span class="d-none d-lg-block"> Couple </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#event"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-calendar2-check-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 3.5c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5v-1zm8.854 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"></path></svg><span class="d-none d-lg-block"> Event </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#gallery"><svg width=1.0625em height=1em viewBox="0 0 17 16" class="bi bi-image-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15.002 9.5V13a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-1zm5-6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path></svg><span class="d-none d-lg-block"> Gallery </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#story"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-chat-text-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z"></path></svg><span class="d-none d-lg-block"> Story </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#guestbook"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-chat-left-dots-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path></svg><span class="d-none d-lg-block"> Guest Book </span></a></li>
+            <li class="nav-item active"><a class="nav-link" href="#home"><svg width=1em height=1em viewBox="0 0 491.398 491.398" class="bi bi-chat-text-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <g>
+                            <g id="Icons_19_">
+                                <path d="M481.765,220.422L276.474,15.123c-16.967-16.918-44.557-16.942-61.559,0.023L9.626,220.422 c-12.835,12.833-12.835,33.65,0,46.483c12.843,12.842,33.646,12.842,46.487,0l27.828-27.832v214.872 c0,19.343,15.682,35.024,35.027,35.024h74.826v-97.62c0-7.584,6.146-13.741,13.743-13.741h76.352 c7.59,0,13.739,6.157,13.739,13.741v97.621h74.813c19.346,0,35.027-15.681,35.027-35.024V239.091l27.812,27.815 c6.425,6.421,14.833,9.63,23.243,9.63c8.408,0,16.819-3.209,23.242-9.63C494.609,254.072,494.609,233.256,481.765,220.422z">
+                            </g>
+                        </g>
+                    </svg><span class="d-none d-lg-block"> Home </span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#couple"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+                    </svg><span class="d-none d-lg-block"> Couple </span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#event"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-calendar2-check-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 3.5c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5v-1zm8.854 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z">
+                        </path>
+                    </svg><span class="d-none d-lg-block"> Event </span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery"><svg width=1.0625em height=1em viewBox="0 0 17 16" class="bi bi-image-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15.002 9.5V13a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-1zm5-6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+                        </path>
+                    </svg><span class="d-none d-lg-block"> Gallery </span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#story"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-chat-text-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z">
+                        </path>
+                    </svg><span class="d-none d-lg-block"> Story </span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#guestbook"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-chat-left-dots-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
+                        </path>
+                    </svg><span class="d-none d-lg-block"> Guest Book </span></a></li>
         </ul>
     </nav>
     <section style="background:url(./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg) center center no-repeat;" class="cover" id="home">
@@ -60,7 +84,8 @@
                 </h2>
                 <h5 class="font-weight date-sparator">28 November 2021</h5>
                 <br><br>
-                <button type=button class="btn btn-md btn-secondary open_invitation px-5" style="z-index:100">Open Invitation</button>
+                <button type=button class="btn btn-md btn-secondary open_invitation px-5" style="z-index:100">Open
+                    Invitation</button>
             </div>
         </div>
     </section>
@@ -79,28 +104,27 @@
             </header>
         </div>
         <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-    <defs>
-    <path id="gentle-wave"
-    d="M-160 44c30 0
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0
         58-18 88-18s
         58 18 88 18
         58-18 88-18
         58 18 88 18
-        v44h-352z" >
-    </defs>
-    <g class="parallax1">
-    <use xlink:href="#gentle-wave" x="50" y="3" fill="#000000">
-    </g>
-        <g class="parallax2">
-    <use xlink:href="#gentle-wave" x="50" y="0" fill="#222222">
-        </g>
-        <g class="parallax3">
-    <use xlink:href="#gentle-wave" x="50" y="9" fill="#333333">
-    </g>
-        <g class="parallax4">
-    <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff">
-    </g>
-    </svg>
+        v44h-352z">
+            </defs>
+            <g class="parallax1">
+                <use xlink:href="#gentle-wave" x="50" y="3" fill="#000000">
+            </g>
+            <g class="parallax2">
+                <use xlink:href="#gentle-wave" x="50" y="0" fill="#222222">
+            </g>
+            <g class="parallax3">
+                <use xlink:href="#gentle-wave" x="50" y="9" fill="#333333">
+            </g>
+            <g class="parallax4">
+                <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff">
+            </g>
+        </svg>
     </section>
 
 
@@ -111,7 +135,8 @@
             </div>
             <div class="col-md-12 pt-4">
                 <div style="max-width:500px;margin:auto">
-                    <div style="font-weight:bold;border-bottom:solid 1px #000;display:inline-block;margin-bottom:10px;font-size:1.1rem;">Protokol Covid-19</div> <br>
+                    <div style="font-weight:bold;border-bottom:solid 1px #000;display:inline-block;margin-bottom:10px;font-size:1.1rem;">
+                        Protokol Covid-19</div> <br>
                     <p>Dalam upaya mengurangi penyebaran Covid 19 pada masa pandemi, kami harapkan kedatangan para tamu undangan agar menjalankan protokol yang berlaku.</p>
                     <table style="font-size:0.9rem;margin:auto">
                         <tbody>
@@ -120,8 +145,10 @@
                                 <td width=50%> <img src=../image/protocol/distance.png alt="distance" style="max-width:80px"><br> Saling Menjaga Jarak di Dalam Acara</td>
                             </tr>
                             <tr>
-                                <td width=50%> <img src=../image/protocol/salam.png alt="salam" style="max-width:80px"><br> Menggunakan salam namastee sebagai ganti berjabat tangan</td>
-                                <td width=50%> <img src=../image/protocol/wash.png alt="wash" style="max-width:80px"><br> Jaga Kebersihan dengan Mencuci Tangan atau Handsanitizer</td>
+                                <td width=50%> <img src=../image/protocol/salam.png alt="salam" style="max-width:80px"><br> Menggunakan salam namastee sebagai ganti berjabat tangan
+                                </td>
+                                <td width=50%> <img src=../image/protocol/wash.png alt="wash" style="max-width:80px"><br> Jaga Kebersihan dengan Mencuci Tangan atau Handsanitizer
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -180,7 +207,8 @@
                                 Putra dari <br>
                                 <b>Bapak Kalil dan ibu Kuriah</b>
                             </p>
-                            <p class="m-0" style="color:#111">Dusun Talun RT 002 RW 001 Desa Cirebon Girang Kec. Talun</p>
+                            <p class="m-0" style="color:#111">Dusun Talun RT 002 RW 001 Desa Cirebon Girang Kec. Talun
+                            </p>
 
                             <div class="mt-4 socmed">
                             </div>
@@ -250,28 +278,27 @@
             </div>
         </div>
         <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-    <defs>
-    <path id="gentle-wave"
-    d="M-160 44c30 0
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0
         58-18 88-18s
         58 18 88 18
         58-18 88-18
         58 18 88 18
-        v44h-352z" >
-    </defs>
-    <g class="parallax1">
-    <use xlink:href="#gentle-wave" x="50" y="3" fill="#000000">
-    </g>
-        <g class="parallax2">
-    <use xlink:href="#gentle-wave" x="50" y="0" fill="#222222">
-        </g>
-        <g class="parallax3">
-    <use xlink:href="#gentle-wave" x="50" y="9" fill="#333333">
-    </g>
-        <g class="parallax4">
-    <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff">
-    </g>
-    </svg>
+        v44h-352z">
+            </defs>
+            <g class="parallax1">
+                <use xlink:href="#gentle-wave" x="50" y="3" fill="#000000">
+            </g>
+            <g class="parallax2">
+                <use xlink:href="#gentle-wave" x="50" y="0" fill="#222222">
+            </g>
+            <g class="parallax3">
+                <use xlink:href="#gentle-wave" x="50" y="9" fill="#333333">
+            </g>
+            <g class="parallax4">
+                <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff">
+            </g>
+        </svg>
     </section>
 
     <section class="gallery" id="gallery">
@@ -359,28 +386,27 @@
             </div>
         </div>
         <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-    <defs>
-    <path id="gentle-wave"
-    d="M-160 44c30 0
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0
         58-18 88-18s
         58 18 88 18
         58-18 88-18
         58 18 88 18
-        v44h-352z" >
-    </defs>
-    <g class="parallax1">
-    <use xlink:href="#gentle-wave" x="50" y="3" fill="#000000">
-    </g>
-        <g class="parallax2">
-    <use xlink:href="#gentle-wave" x="50" y="0" fill="#222222">
-        </g>
-        <g class="parallax3">
-    <use xlink:href="#gentle-wave" x="50" y="9" fill="#333333">
-    </g>
-        <g class="parallax4">
-    <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff">
-    </g>
-    </svg>
+        v44h-352z">
+            </defs>
+            <g class="parallax1">
+                <use xlink:href="#gentle-wave" x="50" y="3" fill="#000000">
+            </g>
+            <g class="parallax2">
+                <use xlink:href="#gentle-wave" x="50" y="0" fill="#222222">
+            </g>
+            <g class="parallax3">
+                <use xlink:href="#gentle-wave" x="50" y="9" fill="#333333">
+            </g>
+            <g class="parallax4">
+                <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff">
+            </g>
+        </svg>
     </section>
 
 
@@ -429,10 +455,10 @@
             <div class="col-lg-8 mx-auto">
                 <br><br>
                 <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=-6.915371,107.598341&zoom=20&dir_action=navigate" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="500">Open Google Map</a>
-                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20211128T040000Z/20211128T070000Z&amp;text=Dinda+%26+Rey+Wedding&amp;details=Dinda+%26+Rey+Wedding+on+Sunday%2C+28+November+2021&amp;location=El+Cavana+Hotel+%7C+Jl.+Pasir+Kaliki+No.16-18%2C+Kb.+Jeruk%2C+Kec.+Andir%2C+Kota+Bandung%2C+Jawa+Barat+40181"
-                    target="_blank" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="600">Google Calendar</a>
-                <a href="https://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;ST=20211128T040000Z&amp;ET=20211128T070000Z&amp;TITLE=Dinda%20%26%20Rey%20Wedding&amp;DESC=Dinda%20%26%20Rey%20Wedding%20on%20Sunday%2C%2028%20November%202021&amp;in_loc=El%20Cavana%20Hotel%20%7C%20Jl.%20Pasir%20Kaliki%20No.16-18%2C%20Kb.%20Jeruk%2C%20Kec.%20Andir%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040181"
-                    target="_blank" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="700">Yahoo Calendar</a>
+                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20211128T040000Z/20211128T070000Z&amp;text=Dinda+%26+Rey+Wedding&amp;details=Dinda+%26+Rey+Wedding+on+Sunday%2C+28+November+2021&amp;location=El+Cavana+Hotel+%7C+Jl.+Pasir+Kaliki+No.16-18%2C+Kb.+Jeruk%2C+Kec.+Andir%2C+Kota+Bandung%2C+Jawa+Barat+40181" target="_blank" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="600">Google
+                    Calendar</a>
+                <a href="https://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;ST=20211128T040000Z&amp;ET=20211128T070000Z&amp;TITLE=Dinda%20%26%20Rey%20Wedding&amp;DESC=Dinda%20%26%20Rey%20Wedding%20on%20Sunday%2C%2028%20November%202021&amp;in_loc=El%20Cavana%20Hotel%20%7C%20Jl.%20Pasir%20Kaliki%20No.16-18%2C%20Kb.%20Jeruk%2C%20Kec.%20Andir%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040181" target="_blank" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="700">Yahoo
+                    Calendar</a>
                 <br><br><br>
             </div>
         </div>
@@ -450,26 +476,26 @@
             <div class="col-lg-9 mx-auto">
                 <div class="card border-0">
                     <div class="card-body text-left">
-                        <form method="POST" action="https://demo.datengdong.com/send/3">
-                            <input type=hidden name=_token value="BCki2woC8PvSxHnl1cumxH8FEEc2KrsqlvpAmQ23">
+                        <!--form method="POST" action="../php/master.php?menu=guest&act=simpan"-->
+                        <form method="POST" action="#" id="inputform" class="form-guest">
+                            <input type=hidden name=coupleId value="tgu_nd">
                             <div class="form-group">
                                 <label for="guestName">Nama</label>
-                                <input type=text class="form-control" id="guestName" name=name value="Prof. Supardi MM" placeholder="Your Name" readonly autocomplete="off">
+                                <input type=text class="form-control" id="guestName" name=sender value="" placeholder="Your Name" autocomplete="off" required>
                             </div>
                             <div class="form-group">
                                 <label for="attendance">Kedatangan</label>
-                                <select class="form-control" id="attendance" name=attendance>
-                        <option value="1">Hadir</option>
-
-                        <option value="3">Tidak Hadir</option>
-                        </select>
+                                <select class="form-control" id="attendance" name=reservation>
+                                    <option value="hadir">Hadir</option>
+                                    <option value="tidak_hadir">Tidak Hadir</option>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label for="message">Pesan/Doa</label>
                                 <textarea class="form-control" id="message" name=message rows="3" required></textarea>
                             </div>
                             <div class="text-center">
-                                <button type=submit class="btn btn-secondary">Kirim <img src=../images/send-b.png alt="send icon" style="width:20px;margin-left:5px"></button>
+                                <button type=submit class="btn btn_1 btn-secondary">Kirim <img src=../images/send-b.png alt="send icon" style="width:20px;margin-left:5px"></button>
                             </div>
                         </form>
                     </div>
@@ -480,7 +506,24 @@
         <div class="show-guest-book px-2 mt-5 pt-5">
             <div class="container text-left">
                 <div class="row justify-content-md-center">
-                    <div class="col-md-12 mb-3">
+                    <div class="showComment"></div>
+                    <script type="text/javascript">
+                        $('.showComment').load("../php/show_comment.php");
+                        $(document).ready(function(){
+                            $('.btn_1').click(function(){
+                                var data = $('.form-guest').serialize();
+                                $.ajax({
+                                    type:'POST',
+                                    url:'../php/master.php?menu=guest&act=simpan',
+                                    data: data,
+                                    success: function() {
+                                        $('.showComment').load("../php/show_comment.php");
+                                    },
+                                });
+                            });
+                        });
+                    </script>
+                    <!--div class="col-md-12 mb-3">
                         <div class="media px-3 media-comment">
                             <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=analis-kesehatan-angkatan-08&size=50&background=111&color=ffffff alt="Image Avatar">
                             <div class="media-body">
@@ -528,7 +571,8 @@
                                     <small class="text-muted">27 November 2021 23:11</small>
                                 </div>
 
-                                <p>Ebennn selamat yaa, semoga menjadi keluarga yg sakinnah mawaddah warahmah serta diberikan keturunan yg sholeh sholehah, bahagia selalu eben dan suamiiii aamiin -Dita-❤️</p>
+                                <p>Ebennn selamat yaa, semoga menjadi keluarga yg sakinnah mawaddah warahmah serta diberikan keturunan yg sholeh sholehah, bahagia selalu eben dan suamiiii aamiin -Dita-❤️
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -564,7 +608,8 @@
                             <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
                             <div class="media-body">
                                 <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)</h5>
+                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
+                                    </h5>
                                     <small class="text-muted">27 November 2021 06:11</small>
                                 </div>
 
@@ -607,7 +652,8 @@
                                     <small class="text-muted">25 November 2021 19:11</small>
                                 </div>
 
-                                <p>بَارَكَ اللّٰهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِى خَيْرٍ samawa dalam kebaikan.</p>
+                                <p>بَارَكَ اللّٰهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِى خَيْرٍ samawa dalam kebaikan.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -629,7 +675,8 @@
                             <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
                             <div class="media-body">
                                 <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)</h5>
+                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
+                                    </h5>
                                     <small class="text-muted">25 November 2021 14:11</small>
                                 </div>
 
@@ -655,7 +702,8 @@
                             <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
                             <div class="media-body">
                                 <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)</h5>
+                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
+                                    </h5>
                                     <small class="text-muted">25 November 2021 14:11</small>
                                 </div>
 
@@ -759,7 +807,8 @@
                             <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
                             <div class="media-body">
                                 <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)</h5>
+                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
+                                    </h5>
                                     <small class="text-muted">24 November 2021 07:11</small>
                                 </div>
 
@@ -772,7 +821,8 @@
                             <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
                             <div class="media-body">
                                 <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)</h5>
+                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
+                                    </h5>
                                     <small class="text-muted">24 November 2021 06:11</small>
                                 </div>
 
@@ -880,7 +930,8 @@
                                     <small class="text-muted">23 November 2021 16:11</small>
                                 </div>
 
-                                <p>Semoga menjadi keluarga yang sakinah mawadah wa Rohmah dan saling menjaga Barokallohu laka</p>
+                                <p>Semoga menjadi keluarga yang sakinah mawadah wa Rohmah dan saling menjaga Barokallohu laka
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -893,7 +944,8 @@
                                     <small class="text-muted">23 November 2021 06:11</small>
                                 </div>
 
-                                <p>Semoga jadi keluarga yang sakinah mawadah,warahmah.langgeng dan tambah sukses,aamiin</p>
+                                <p>Semoga jadi keluarga yang sakinah mawadah,warahmah.langgeng dan tambah sukses,aamiin
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1206,7 +1258,8 @@
                                     <small class="text-muted">22 July 2021 08:07</small>
                                 </div>
 
-                                <p>Barrakallah...semoga ananda bahagia jadi keluarga Sakinah Mawadah Warahmah...aamiin yra</p>
+                                <p>Barrakallah...semoga ananda bahagia jadi keluarga Sakinah Mawadah Warahmah...aamiin yra
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1232,7 +1285,8 @@
                                     <small class="text-muted">21 July 2021 21:07</small>
                                 </div>
 
-                                <p>Dua jadi satu tuk selamanya, Tuhan memberkati dan melidunngi Parlin sihombing, bengkulu</p>
+                                <p>Dua jadi satu tuk selamanya, Tuhan memberkati dan melidunngi Parlin sihombing, bengkulu
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1381,7 +1435,7 @@
                                 <p>Jangan kasih kendor</p>
                             </div>
                         </div>
-                    </div>
+                    </div-->
                 </div>
             </div>
         </div>
@@ -1396,7 +1450,8 @@
     </footer>
     <div style="height:50px;width:60px;position: absolute;bottom:0;z-index:-1;visibility: hidden;">
         <audio id="player" autoplay loop>
-            <source src=./uploads/musics/8I69mL8M55.mp3 type=audio/mp3 ></audio>
+            <source src=./uploads/musics/8I69mL8M55.mp3 type=audio/mp3>
+        </audio>
     </div>
     <div class="play-pause btn-play-pause" id="button-control"><img src=../images/play-pause.svg alt="play pause" width=25px></div>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
