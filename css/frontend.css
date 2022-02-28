@@ -22237,8 +22237,8 @@ p {
     border-radius: 5px;
     /*border: 1px solid #f38580;
     background: #fe908b;*/
-    background: #5454d4;
-    border: solid 1px #4949c5;
+    background: #9d9ad9;
+    border: solid 1px #9d9ad9;
     color: #fff;
     font-family: CircularStd, sans-serif;
     font-size: 20px;
@@ -22248,13 +22248,13 @@ p {
 
 .btn--primary.hvr-bounce-to-left::before,
 .btn--red.hvr-bounce-to-left::before {
-    background: #4141b9;
+    background: #cedef0;
     color: #fff
 }
 
 .btn--primary.hvr-bounce-to-left:hover::before,
 .btn--red.hvr-bounce-to-left:hover::before {
-    background: #4141b9;
+    background: #cedef0;
     color: #fff
 }
 
@@ -22345,7 +22345,7 @@ p {
 }
 
 .main-menu>li>.nav-link:hover {
-    color: #5454d4 !important
+    color: #cedef0 !important
 }
 
 @media (min-width:992px) {
@@ -22689,13 +22689,13 @@ p {
 .btn--primary.hvr-bounce-to-left::before,
 .btn--red.hvr-bounce-to-left::before {
     /*background: #f9544b;*/
-    background: #4141b9;
+    background: #827fc7;
     color: #fff
 }
 
 .btn--primary.hvr-bounce-to-left:hover::before,
 .btn--red.hvr-bounce-to-left:hover::before {
-    background: #4141b9;
+    background: #827fc7;
     color: #fff
 }
 
