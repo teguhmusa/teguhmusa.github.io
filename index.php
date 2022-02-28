@@ -192,13 +192,16 @@
                     <div class="col-lg-7 order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
                         <div class="hero-content py--50">
                             <h1 class="title">Online Website Invitation</h1>
-                            <p>Undang orang-orang terdekat dalam momen kebahagiaan pernikahan Anda dengan cara yang unik dan menarik. Coba sekarang juga!
+                            <!--p>Undang orang-orang terdekat dalam momen kebahagiaan pernikahan Anda dengan cara yang unik dan menarik. Coba sekarang juga!
+                                <br><strong>Bukan . Sekedar . Gambar</strong>
+                            </p-->
+                            <p>Buat undangan digital dengan konsep yang unik dan menarik!
                                 <!--br><strong>Bukan . Sekedar . Gambar</strong-->
                             </p>
                             <div class="hero-btn d-flex">
                                 <!--a href="http://localhost/teguhmusa.github.io/register"
                                     class="btn--primary hvr-bounce-to-left">Buat Sekarang</a-->
-                                <a href="https://deinvitee.com" class="btn--secondary ml-2 hvr-bounce-to-left">Demo</a>
+                                <a href="https://blackwhite.deinvitee.com" class="btn--secondary ml-2 hvr-bounce-to-left">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -208,10 +211,10 @@
 
         <div class="pricing-page py-5">
             <div class="container feature-widget">
-                <div class="row mb-5">
-                    <div class="col-md-3 mb-4 section-title widget-text">
-                        <h3 class="title-hero">Mengapa Harus Punya Website Undangan?</h3>
-                    </div>
+                <div class="row mb-5 justify-content-center">
+                    <!--div class="col-md-3 mb-4 section-title widget-text">
+                        <h3 class="title-hero">Alasan mengapa memilih undangan online</h3>
+                    </div-->
                     <div class="col-md-3 mb-4 widget-text">
                         <h4 class="title text-left">Mudah Dibagikan</h4>
                         <p class="text-left">Hanya dengan link, undangan digital bisa dibagikan keseluruh kontak lengkap dengan nama tamu undangan</p>
