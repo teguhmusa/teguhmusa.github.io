@@ -489,7 +489,7 @@
                 <div class="card border-0">
                     <div class="card-body text-left">
                         <!--form method="POST" action="../php/master.php?menu=guest&act=simpan"-->
-                        <form method="POST" action="#" id="inputform" class="form-guest">
+                        <form method="POST" id="inputform" onsubmit="return formSubmit();">
                             <input type=hidden name=coupleId value="tgu_nd">
                             <div class="form-group">
                                 <label for="guestName">Nama</label>
@@ -509,6 +509,8 @@
                             <div class="text-center">
                                 <button type=submit class="btn btn_1 btn-secondary">Kirim <img src=https://www.deinvitee.com/images/send-b.png alt="send icon" style="width:20px;margin-left:5px"></button>
                             </div>
+                            <h3 id="success">
+                            </h3>
                         </form>
                     </div>
                 </div>
@@ -520,20 +522,45 @@
                 <div class="row justify-content-md-center">
                     <div class="showComment"></div>
                     <script type="text/javascript">
-                        $('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
-                        $(document).ready(function() {
-                            $('.btn_1').click(function() {
+                        //$('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
+                        //$('.showComment').load("../../php/show_comment.php");
+                        //$(document).ready(function() {
+                        /*   $('.btn_1').click(function() {
                                 var data = $('.form-guest').serialize();
                                 $.ajax({
                                     type: 'POST',
-                                    url: 'https://www.deinvitee.com/php/master.php?menu=guest&act=simpan',
+                                    //url: 'https://www.deinvitee.com/php/master.php?menu=guest&act=simpan',
+                                    url: '../../php/master.php?menu=guest&act=simpan',
                                     data: data,
                                     success: function() {
-                                        $('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
+                                        //$('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
+                                        $('.showComment').load("../../php/show_comment.php");
                                     },
                                 });
                             });
-                        });
+                        });*/
+                        $('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
+                        //$('.showComment').load("../../php/show_comment.php");
+
+                        function formSubmit() {
+                            $.ajax({
+                                type: 'POST',
+                                url: 'https://www.deinvitee.com/php/master.php?menu=guest&act=simpan',
+                                //url: '../../php/master.php?menu=guest&act=simpan',
+                                data: $('#inputform').serialize(),
+                                success: function(response) {
+                                    $('#success').html(response);
+                                    $('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
+                                    //$('.showComment').load("../../php/show_comment.php");
+                                    setTimeout(function() {
+                                        //alert(response); // this is not calling
+                                        $('#success').html('');
+                                    }, 2500);
+                                }
+                            });
+                            var form = document.getElementById('inputform').reset();
+                            return false;
+                        }
                     </script>
                     <!--div class="col-md-12 mb-3">
                         <div class="media px-3 media-comment">
