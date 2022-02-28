@@ -22238,7 +22238,7 @@ p {
     /*border: 1px solid #f38580;
     background: #fe908b;*/
     background: #9d9ad9;
-    border: solid 1px #9d9ad9;
+    border: solid 1px #827fc7;
     color: #fff;
     font-family: CircularStd, sans-serif;
     font-size: 20px;
@@ -22723,8 +22723,8 @@ p {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: -.66px;
-    background-color: #5454d4;
-    border: solid 1px #5454d4
+    background-color: #9d9ad9;
+    border: solid 1px #827fc7;
 }
 
 .image-card {
@@ -22806,7 +22806,7 @@ p {
 }
 
 .image-card-2 .card-icon {
-    background-color: #fc62a2;
+    background-color: #827fc7;
     min-width: 31px;
     max-width: 31px;
     min-height: 31px;
@@ -22856,7 +22856,7 @@ p {
 }
 
 .image-card-2.card-blue {
-    background-color: #5b66fa
+    background-color: #9d9ad9
 }
 
 .image-card-2.card-red .date {
@@ -25457,7 +25457,7 @@ p {
 }
 
 .case-study-page .cta-section {
-    background-color: #7373e4;
+    background-color: #7370bd;
     position: relative
 }
 
@@ -25498,8 +25498,8 @@ p {
     width: 250px;
     height: 60px;
     border-radius: 10px;
-    background-color: #5454d4;
-    border: solid 1px #4949c5;
+    background-color: #9d9ad9;
+    border: solid 1px #7370bd;
     /*border: 1px solid #f38580;
     background-color: #fe908b;*/
     color: #fff;
