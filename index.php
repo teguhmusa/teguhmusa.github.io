@@ -569,7 +569,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mt--30">
                         <div class="case-study-card">
-                            <a href="./template_sample/black_white">
+                            <a href="https://blackwhite.deinvitee.com">
                                 <div class="card-img">
                                     <img src=./themes/theme1/thumb.png alt="Theme Sparkle Pink">
                                     <div class="brand-img" style="background:#cda56b">
@@ -586,7 +586,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mt--30">
                         <div class="case-study-card">
-                            <a href="./template_sample/black_white">
+                            <a href="https://blackwhite.deinvitee.com">
                                 <div class="card-img">
                                     <img src=./themes/theme1/thumb.png alt="Theme Twelve">
                                     <div class="brand-img">
@@ -603,7 +603,7 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mt--30">
                         <div class="case-study-card">
-                            <a href="./template_sample/black_white">
+                            <a href="https://blackwhite.deinvitee.com">
                                 <div class="card-img">
                                     <img src=./themes/theme2/thumb.png alt="Theme Star Light">
                                     <div class="brand-img" style="background:#cda56b">

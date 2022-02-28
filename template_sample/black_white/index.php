@@ -5,33 +5,33 @@
     <meta charset=UTF-8>
     <meta name=viewport content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="../../images/favicon.ico">
-    <link rel="apple-touch-icon" sizes="57x57" href="../../icon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../../icon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../../icon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../../icon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../../icon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../../icon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../../icon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../../icon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../../icon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../../icon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="../../icon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../icon/favicon-16x16.png">
-    <link rel="canonical" href="https://dindarey.musaharpa.com">
+    <link rel="shortcut icon" href="https://www.deinvitee.com/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.deinvitee.com/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www.deinvitee.com/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.deinvitee.com/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.deinvitee.com/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.deinvitee.com/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.deinvitee.com/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.deinvitee.com/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.deinvitee.com/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.deinvitee.com/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.deinvitee.com/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.deinvitee.com/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.deinvitee.com/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.deinvitee.com/icon/favicon-16x16.png">
+    <link rel="canonical" href="https://dindarey.deinvitee.com">
     <meta name=title content="Dinda &amp; Rey Wedding">
-    <meta name=author content="musaharpa">
+    <meta name=author content="deinvitee">
     <meta name=language content="Indonesia">
     <meta name=googlebot-news content="noindex">
     <meta name=googlebot content="noindex">
     <meta name=robots content="noindex">
     <meta name=description content="Dinda &amp; Rey are getting married on Sunday, 28 November 2022. Undangan pernikahan online by musaharpa.com">
-    <meta name=keywords content="musaharpa,undangan,pernikahan,online,website,wedding,invitation">
+    <meta name=keywords content="deinvitee,undangan,pernikahan,online,website,wedding,invitation">
     <meta name=twitter:card content="summary">
-    <meta name=twitter:site content="@musaharpa">
-    <meta name=twitter:creator content="@musaharpa">
-    <meta property="og:url" content="https://dindarey.musaharpa.com">
+    <meta name=twitter:site content="@deinvitee">
+    <meta name=twitter:creator content="@deinvitee">
+    <meta property="og:url" content="https://dindarey.deinvitee.com">
     <meta property="og:title" content="Dinda &amp; Rey Wedding">
     <meta property="og:description" content="Dinda &amp; Rey are getting married on Sunday, 28 November 2022. Undangan pernikahan online by musaharpa.com">
     <meta property="og:image" content="./uploads/thumbs/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae8K.jpeg">
@@ -154,13 +154,13 @@
                     <table style="font-size:0.9rem;margin:auto">
                         <tbody>
                             <tr>
-                                <td width=50%> <img src=../../image/protocol/masker.png alt="masker" style="max-width:80px"><br> Wajib Menggunakan Masker</td>
-                                <td width=50%> <img src=../../image/protocol/distance.png alt="distance" style="max-width:80px"><br> Saling Menjaga Jarak di Dalam Acara</td>
+                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/masker.png alt="masker" style="max-width:80px"><br> Wajib Menggunakan Masker</td>
+                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/distance.png alt="distance" style="max-width:80px"><br> Saling Menjaga Jarak di Dalam Acara</td>
                             </tr>
                             <tr>
-                                <td width=50%> <img src=../../image/protocol/salam.png alt="salam" style="max-width:80px"><br> Menggunakan salam namastee sebagai ganti berjabat tangan
+                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/salam.png alt="salam" style="max-width:80px"><br> Menggunakan salam namastee sebagai ganti berjabat tangan
                                 </td>
-                                <td width=50%> <img src=../../image/protocol/wash.png alt="wash" style="max-width:80px"><br> Jaga Kebersihan dengan Mencuci Tangan atau Handsanitizer
+                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/wash.png alt="wash" style="max-width:80px"><br> Jaga Kebersihan dengan Mencuci Tangan atau Handsanitizer
                                 </td>
                             </tr>
                         </tbody>
@@ -507,7 +507,7 @@
                                 <textarea class="form-control" id="message" name=message rows="3" required></textarea>
                             </div>
                             <div class="text-center">
-                                <button type=submit class="btn btn_1 btn-secondary">Kirim <img src=../../images/send-b.png alt="send icon" style="width:20px;margin-left:5px"></button>
+                                <button type=submit class="btn btn_1 btn-secondary">Kirim <img src=https://www.deinvitee.com/images/send-b.png alt="send icon" style="width:20px;margin-left:5px"></button>
                             </div>
                         </form>
                     </div>
@@ -520,16 +520,16 @@
                 <div class="row justify-content-md-center">
                     <div class="showComment"></div>
                     <script type="text/javascript">
-                        $('.showComment').load("../../php/show_comment.php");
+                        $('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
                         $(document).ready(function() {
                             $('.btn_1').click(function() {
                                 var data = $('.form-guest').serialize();
                                 $.ajax({
                                     type: 'POST',
-                                    url: '../../php/master.php?menu=guest&act=simpan',
+                                    url: 'https://www.deinvitee.com/php/master.php?menu=guest&act=simpan',
                                     data: data,
                                     success: function() {
-                                        $('.showComment').load("../../php/show_comment.php");
+                                        $('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
                                     },
                                 });
                             });
@@ -1455,7 +1455,7 @@
     <footer>
         <div class="container">
             <div class="col-md-12">
-                <a href="https://deinvitee.com" title="Undangan Pernikahan Online"><img src=../../image/logo.png alt="Logo musaharpa"></a>
+                <a href="https://deinvitee.com" title="Undangan Pernikahan Online"><img src=https://www.deinvitee.com/image/logo.png alt="Logo musaharpa"></a>
                 <small>Online Website Invitation</small>
             </div>
         </div>

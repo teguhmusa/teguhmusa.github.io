@@ -10,5 +10,5 @@ $dateTimeStr = $date->format('d F Y H:i');
 if($menu=='guest' and $act = 'simpan'){
     mysqli_query($db, "insert into aDEUserMessage(coupleId, sender, reservation, message, dateTimeStr) 
                         values('$_POST[coupleId]', '$_POST[sender]', '$_POST[reservation]', '$_POST[message]', '$dateTimeStr')");
-    header("location:../sample02/index.php");
+    header("location:".$prev_page);
 }
