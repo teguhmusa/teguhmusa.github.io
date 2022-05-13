@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://www.deinvitee.com/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="https://www.deinvitee.com/icon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.deinvitee.com/icon/favicon-16x16.png">
-    <link rel="canonical" href="https://dindarey.deinvitee.com">
+    <link rel="canonical" href="https://nisateguh.deinvitee.com">
     <meta name=title content="Dinda &amp; Rey Wedding">
     <meta name=author content="deinvitee">
     <meta name=language content="Indonesia">
@@ -31,7 +31,7 @@
     <meta name=twitter:card content="summary">
     <meta name=twitter:site content="@deinvitee">
     <meta name=twitter:creator content="@deinvitee">
-    <meta property="og:url" content="https://dindarey.deinvitee.com">
+    <meta property="og:url" content="https://nisateguh.deinvitee.com">
     <meta property="og:title" content="Dinda &amp; Rey Wedding">
     <meta property="og:description" content="Dinda &amp; Rey are getting married on Sunday, 28 November 2022. Undangan pernikahan online by musaharpa.com">
     <meta property="og:image" content="./uploads/thumbs/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae8K.jpeg">
@@ -490,7 +490,7 @@
                     <div class="card-body text-left">
                         <!--form method="POST" action="../php/master.php?menu=guest&act=simpan"-->
                         <form method="POST" id="inputform" onsubmit="return formSubmit();">
-                            <input type=hidden name=coupleId value="tgu_nd">
+                            <input type=hidden name=coupleId value="nisateguh">
                             <div class="form-group">
                                 <label for="guestName">Nama</label>
                                 <input type=text class="form-control" id="guestName" name=sender value="" placeholder="Your Name" autocomplete="off" required>
@@ -539,7 +539,7 @@
                                 });
                             });
                         });*/
-                        $('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
+                        $('.showComment').load("../php/show_comment.php");
                         //$('.showComment').load("../../php/show_comment.php");
 
                         function formSubmit() {
@@ -550,7 +550,7 @@
                                 data: $('#inputform').serialize(),
                                 success: function(response) {
                                     $('#success').html(response);
-                                    $('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
+                                    $('.showComment').load("../php/show_comment.php");
                                     //$('.showComment').load("../../php/show_comment.php");
                                     setTimeout(function() {
                                         //alert(response); // this is not calling
@@ -1508,7 +1508,7 @@
             disableScroll: true,
             disableRightClick: true
         });
-        var countDownDate = new Date("28 November 2022 11:00:00").getTime(),
+        var countDownDate = new Date("13 August 2022 11:00:00").getTime(),
             x = setInterval(function() {
                 var e = (new Date).getTime(),
                     n = countDownDate - e,
