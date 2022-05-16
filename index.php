@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=google-site-verification content="S0AMyShugVFDLpbdTcRKhq0xHAaxHNYvR6uIL4i39rQ">
-    <meta name=theme-color content="#fe908b">
+    <meta name=theme-color content="#827fc7">
     <meta name=robots content="index, follow">
     <link rel="shortcut icon" href="./images/favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="./icon/apple-icon-57x57.png">

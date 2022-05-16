@@ -413,7 +413,7 @@ input[type=number] {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #fe908b;
+    background: #827fc7;
     z-index: 99999
 }
 
@@ -22236,7 +22236,7 @@ p {
     height: 60px;
     border-radius: 5px;
     border: 1px solid #f38580;
-    background: #fe908b;
+    background: #827fc7;
     color: #fff;
     font-family: CircularStd, sans-serif;
     font-size: 20px;
@@ -22343,7 +22343,7 @@ p {
 }
 
 .main-menu>li>.nav-link:hover {
-    color: #fe908b !important
+    color: #827fc7 !important
 }
 
 @media (min-width:992px) {
@@ -22460,7 +22460,7 @@ p {
         top: 3px
     }
     .offcanvas-active.navbar-expand-lg .main-menu li:hover>a {
-        color: #fe908b
+        color: #827fc7
     }
     .offcanvas-active.navbar-expand-lg .main-menu a {
         display: block
@@ -22635,7 +22635,7 @@ p {
 }
 
 .menu-dropdown>.drop-menu-item.dropdown>.menu-dropdown {
-    border-top-color: #fe908b
+    border-top-color: #827fc7
 }
 
 @media (min-width:992px) {
@@ -22849,7 +22849,7 @@ p {
 }
 
 .image-card-2.card-red {
-    background-color: #fe908b
+    background-color: #827fc7
 }
 
 .image-card-2.card-red .date {
@@ -23244,7 +23244,7 @@ p {
 
 .feature-card .card-icon.red {
     background-color: rgba(240, 64, 55, .1);
-    color: #fe908b
+    color: #827fc7
 }
 
 .feature-card .card-icon.yellow {
@@ -23325,7 +23325,7 @@ p {
 }
 
 .content-widget .widget-icon.red {
-    color: #fe908b;
+    color: #827fc7;
     background-color: rgba(240, 64, 55, .1)
 }
 
@@ -24021,7 +24021,7 @@ p {
 }
 
 .omega-form .form-check-label label .checkbox.color-blue:before {
-    color: #fe908b
+    color: #827fc7
 }
 
 .omega-form .form-check-label label p {
@@ -24044,7 +24044,7 @@ p {
 .omega-form .button-block .form-btn {
     height: 60px;
     border-radius: 10px;
-    background-color: #fe908b;
+    background-color: #827fc7;
     width: 100%;
     color: #fff;
     font-family: CircularStd, sans-serif;
@@ -24394,7 +24394,7 @@ p {
     height: 60px;
     border-radius: 10px;
     border: 1px solid #f38580;
-    background-color: #fe908b;
+    background-color: #827fc7;
     color: #fff;
     font-size: 21px;
     font-weight: 500;
@@ -24692,7 +24692,7 @@ p {
     height: 60px;
     border-radius: 10px;
     border: 1px solid #f38580;
-    background-color: #fe908b;
+    background-color: #827fc7;
     overflow: hidden
 }
 
@@ -24842,7 +24842,7 @@ p {
 
 .career-page .card-job .badge.red {
     background-color: rgba(240, 64, 55, .15);
-    color: #fe908b
+    color: #827fc7
 }
 
 .career-page .card-job .badge.blue {
@@ -24887,7 +24887,7 @@ p {
 }
 
 .career-page .circle-bg-red {
-    background: #fe908b
+    background: #827fc7
 }
 
 .career-page .circle-bg-red.outer-circle {
@@ -25484,7 +25484,7 @@ p {
     height: 60px;
     border-radius: 10px;
     border: 1px solid #f38580;
-    background-color: #fe908b;
+    background-color: #827fc7;
     color: #fff;
     font-size: 21px;
     font-weight: 500;
@@ -25626,7 +25626,7 @@ p {
     min-height: 60px;
     border-radius: 10px;
     border: 1px solid #f38580;
-    background-color: #fe908b;
+    background-color: #827fc7;
     overflow: hidden
 }
 
@@ -25736,7 +25736,7 @@ p {
 }
 
 .pricing-page .pricing-card.active {
-    border: solid #fe908b
+    border: solid #827fc7
 }
 
 .pricing-page .pricing-card.active::after {
@@ -25958,7 +25958,7 @@ p {
 }
 
 .pricing-page .faq-section .faq-link a {
-    color: #fe908b
+    color: #827fc7
 }
 
 .pricing-page .single-faq .title {
@@ -26180,7 +26180,7 @@ p {
 }
 
 .pricing-page-2 .pricing-table table .colored-row .sin-box .table-icon.neg {
-    color: #fe908b
+    color: #827fc7
 }
 
 .pricing-page-2 .pricing-table table .colored-row .sin-box .table-icon.pos {
@@ -26228,7 +26228,7 @@ p {
 
 .pricing-page-2 .pricing-table table .price-widget-block .btn:hover {
     border: 1px solid #f38580;
-    background-color: #fe908b;
+    background-color: #827fc7;
     color: #fff
 }
 
@@ -26456,7 +26456,7 @@ p {
 }
 
 .blog-page .blog-card_texts .link-to-more {
-    color: #fe908b;
+    color: #827fc7;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: -.5px;
@@ -26622,7 +26622,7 @@ p {
     height: 60px;
     border-radius: 10px;
     border: 1px solid #f38580;
-    background-color: #fe908b;
+    background-color: #827fc7;
     color: #fff;
     font-size: 21px;
     font-weight: 500;
@@ -26743,7 +26743,7 @@ p {
 }
 
 .blog-page.blog-details .page-banner .banner-content p a:hover {
-    color: #fe908b
+    color: #827fc7
 }
 
 .blog-page.blog-details .blog-post-details .article-title {
@@ -27276,7 +27276,7 @@ p {
     min-height: 60px;
     border-radius: 10px;
     border: 1px solid #f38580;
-    color: #fe908b;
+    color: #827fc7;
     font-size: 21px;
     font-weight: 500;
     letter-spacing: -.66px;
@@ -27422,7 +27422,7 @@ p {
     min-height: 60px;
     border-radius: 10px;
     border: 1px solid #f38580;
-    color: #fe908b;
+    color: #827fc7;
     font-size: 21px;
     font-weight: 500;
     letter-spacing: -.66px;
@@ -27774,7 +27774,7 @@ p {
 }
 
 .faq-page .faq-link a {
-    color: #fe908b
+    color: #827fc7
 }
 
 .faq-page .faq-link a:hover {
@@ -28478,7 +28478,7 @@ p {
 
 .btn.btn-primary {
     color: #fff;
-    background-color: #fe908b;
+    background-color: #827fc7;
     border-color: #f38580
 }
 
