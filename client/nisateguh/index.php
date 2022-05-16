@@ -20,23 +20,23 @@
     <link rel="icon" type="image/png" sizes="96x96" href="https://www.deinvitee.com/icon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.deinvitee.com/icon/favicon-16x16.png">
     <link rel="canonical" href="https://nisateguh.deinvitee.com">
-    <meta name=title content="Dinda &amp; Rey Wedding">
+    <meta name=title content="Nisa &amp; Teguh Wedding">
     <meta name=author content="deinvitee">
     <meta name=language content="Indonesia">
     <meta name=googlebot-news content="noindex">
     <meta name=googlebot content="noindex">
     <meta name=robots content="noindex">
-    <meta name=description content="Dinda &amp; Rey are getting married on Sunday, 28 November 2022. Undangan pernikahan online by musaharpa.com">
+    <meta name=description content="Nisa &amp; Teguh are getting married on Sunday, 28 November 2022. Undangan pernikahan online by musaharpa.com">
     <meta name=keywords content="deinvitee,undangan,pernikahan,online,website,wedding,invitation">
     <meta name=twitter:card content="summary">
     <meta name=twitter:site content="@deinvitee">
     <meta name=twitter:creator content="@deinvitee">
     <meta property="og:url" content="https://nisateguh.deinvitee.com">
-    <meta property="og:title" content="Dinda &amp; Rey Wedding">
-    <meta property="og:description" content="Dinda &amp; Rey are getting married on Sunday, 28 November 2022. Undangan pernikahan online by musaharpa.com">
-    <meta property="og:image" content="./uploads/thumbs/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae8K.jpeg">
-    <meta property="og:image:alt" content="Dinda &amp; Rey Wedding Image">
-    <title>Dinda &amp; Rey Wedding</title>
+    <meta property="og:title" content="Nisa &amp; Teguh Wedding">
+    <meta property="og:description" content="Nisa &amp; Teguh are getting married on Sunday, 28 November 2022. Undangan pernikahan online by musaharpa.com">
+    <meta property="og:image" content="../uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg">
+    <meta property="og:image:alt" content="Nisa &amp; Teguh Wedding Image">
+    <title>Nisa &amp; Teguh Wedding</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.3/simplelightbox.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
@@ -93,9 +93,9 @@
                 <h5 class="mt-5 mb-5">Hello, You're Invited </h5>
                 <h5 class="font-weight mt-3">The Wedding Of</h5>
                 <h2 class="mt-4 mb-4 display-4">
-                    Dinda & Rey
+                    Nisa & Teguh
                 </h2>
-                <h5 class="font-weight date-sparator">28 November 2022</h5>
+                <h5 class="font-weight date-sparator">13 Agustus 2022</h5>
                 <br><br>
                 <button type=button class="btn btn-md btn-secondary open_invitation px-5" style="z-index:100">Open
                     Invitation</button>
@@ -111,8 +111,8 @@
                     <br><br><br>
                     <img src=./themes/dancingpiano/images/flower.png alt="flower" style="max-width:100px;max-height:100px;margin-bottom:50px">
                     <h3>The Wedding Of</h3>
-                    <h1 class="display-1 font-weight-bold mb-4">Dinda & Rey</h1>
-                    <p class="date-sparator mb-3">28 November 2022</p>
+                    <h1 class="display-1 font-weight-bold mb-4">Nisa & Teguh</h1>
+                    <p class="date-sparator mb-3">13 Agustus 2022</p>
                 </div>
             </header>
         </div>
@@ -186,20 +186,22 @@
                     <div class="row">
                         <div class="col-12 px-5">
                             <div class="couple-ring">
-                                <img src=./uploads/thumbs/couple/iisgcojmvj.png alt="Dinda Photo" class="img-fluid">
+                                <img src=./uploads/thumbs/couple/iisgcojmvj.png alt="Nisa Photo" class="img-fluid">
                             </div>
                             <h2 class="mt-3">
-                                <span style="font-size:1.6rem;color:#111">Dinda</span>
-                                <span class="d-block mt-3 serif">Nasthiti Adinda</span>
+                                <span style="font-size:1.6rem;color:#111">Nisa</span>
+                                <span class="d-block mt-3 serif">Nisa Nurazizah</span>
                             </h2>
                             <p>
                                 Putri kedua dari <br>
-                                <b>Bapak Kemas dan Ibu Hulwati</b>
+                                <b>Bapak Dede dan Ibu Mida (Alm)</b>
                             </p>
-                            <p class="m-0" style="color:#111">Jl. Santai RT 004 RW 002 Kel. Cimareme Kec. Cisaat</p>
+                            <p class="m-0" style="color:#111">Kp. Cijeungjing RT 01 RW 16</p>
+                            <p class="m-0" style="color:#111">Ds. Kertamulya Kec. Padalarang</p>
+                            <p class="m-0" style="color:#111">Bandung</p>
                             <div class="mt-4 socmed">
-                                <a href="https://instagram.com/dindahaw" rel="nofollow" target="_blank"><img src=./images/instagram.png width=20px alt="instagram"></a>
-                                <a href="https://twitter.com/dindahaw" rel="nofollow" target="_blank"><img src=./images/twitter.png width=20px alt="twitter"></a>
+                                <a href="https://instagram.com/" rel="nofollow" target="_blank"><img src=./images/instagram.png width=20px alt="instagram"></a>
+                                <a href="https://twitter.com/" rel="nofollow" target="_blank"><img src=./images/twitter.png width=20px alt="twitter"></a>
                             </div>
                         </div>
                     </div>
@@ -208,21 +210,25 @@
                     <div class="row">
                         <div class="col-12 px-5">
                             <div class="couple-ring">
-                                <img src=./uploads/thumbs/couple/u5m0mru25w.png alt="Rey Photo" class="img-fluid">
+                                <img src=./uploads/thumbs/couple/u5m0mru25w.png alt="Teguh Photo" class="img-fluid">
                             </div>
                             <h2 class="mt-3">
-                                <span style="font-size:1.6rem;color:#111">Rey</span>
-                                <span class="d-block mt-3 serif">Rey Mbayang</span>
+                                <span style="font-size:1.6rem;color:#111">Teguh</span>
+                                <span class="d-block mt-3 serif">Teguh Musaharpa</span>
                             </h2>
                             <p>
-                                Putra dari <br>
-                                <b>Bapak Kalil dan Ibu Kuriah</b>
+                                Putra pertama dari <br>
+                                <b>Bapak Entis dan Ibu Iis</b>
                             </p>
-                            <p class="m-0" style="color:#111">Jalan Indah RT 002 RW 001 Desa Intan Kec. Matahari
+                            <p class="m-0" style="color:#111">Kp. Sukamulya RT 03 RW 08
+                            </p>
+                            <p class="m-0" style="color:#111">Ds. Dayeuhmanggung Kec. Cilawu
+                            </p>
+                            <p class="m-0" style="color:#111">Garut
                             </p>
                             <div class="mt-4 socmed">
-                                <a href="https://instagram.com/reymbayang" rel="nofollow" target="_blank"><img src=./images/instagram.png width=20px alt="instagram"></a>
-                                <a href="https://twitter.com/reymbayang" rel="nofollow" target="_blank"><img src=./images/twitter.png width=20px alt="twitter"></a>
+                                <a href="https://instagram.com/teguhmusa" rel="nofollow" target="_blank"><img src=./images/instagram.png width=20px alt="instagram"></a>
+                                <a href="https://twitter.com/teguhmusa" rel="nofollow" target="_blank"><img src=./images/twitter.png width=20px alt="twitter"></a>
                             </div>
                         </div>
                     </div>
@@ -246,47 +252,47 @@
                         <div class="card-body">
                             <div class="row mt-4">
                                 <div class="col pt-1" style="font-size:0.9rem">
-                                    July <br> 2022
+                                    Agustus <br> 2022
                                 </div>
                                 <div class="col date">
-                                    <span class="d-block">24</span> Saturday
+                                    <span class="d-block">13</span> Sabtu
                                 </div>
                                 <div class="col pt-1" style="font-size:0.9rem">
-                                    d&#039;best Hotel
+                                    Hegarmanah Wedding Outdoor
                                 </div>
                             </div>
-                            <h3 class="mt-4">Akad Nikah
+                            <h3 class="mt-4">Akad Nikah & Resepsi
                                 <hr>
                             </h3>
                             <p class="desc-location mt-3">
-                                08:00 - 12:00 WIB <br> Jl. Otto Iskandar Dinata no 460 Kec. Astananyar Kota Bandung, Jawa Barat
+                                08:00 - 14:00 WIB <br> Jl. Hegarmanah, RT.01/RW.03, Sukatani, Kec. Padalarang, Bandung Barat
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-3" data-aos="fade-up" data-aos-delay="400">
+                <!--div class="col-lg-4 mb-3" data-aos="fade-up" data-aos-delay="400">
                     <div class="card information h-100">
                         <div class="card-body">
                             <div class="row mt-4">
                                 <div class="col pt-1" style="font-size:0.9rem">
-                                    November <br> 2022
+                                    Agustus <br> 2022
                                 </div>
                                 <div class="col date">
-                                    <span class="d-block">28</span> Sunday
+                                    <span class="d-block">13</span> Sabtu
                                 </div>
                                 <div class="col pt-1" style="font-size:0.9rem">
-                                    El Cavana Hotel
+                                    Hegarmanah Wedding Outdoor
                                 </div>
                             </div>
                             <h3 class="mt-4">Resepsi
                                 <hr>
                             </h3>
                             <p class="desc-location mt-3">
-                                11:00-14:00 WIB <br> Jl. Pasir Kaliki No.16-18, Kb. Jeruk, Kec. Andir, Kota Bandung, Jawa Barat 40181
+                                11:00-14:00 WIB <br> Jl. Hegarmanah, RT.01/RW.03, Sukatani, Kec. Padalarang, Bandung Barat
                             </p>
                         </div>
                     </div>
-                </div>
+                </div-->
             </div>
         </div>
         <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
@@ -353,10 +359,6 @@
             </div>
         </div>
     </section>
-
-
-
-
 
 
 
@@ -466,13 +468,19 @@
             </div>
             <div class="col-lg-8 mx-auto">
                 <br><br>
-                <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=-6.915371,107.598341&zoom=20&dir_action=navigate" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="500">Open Google Map</a>
-                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20221128T040000Z/20221128T070000Z&amp;text=Dinda+%26+Rey+Wedding&amp;details=Dinda+%26+Rey+Wedding+on+Sunday%2C+28+November+2022&amp;location=El+Cavana+Hotel+%7C+Jl.+Pasir+Kaliki+No.16-18%2C+Kb.+Jeruk%2C+Kec.+Andir%2C+Kota+Bandung%2C+Jawa+Barat+40181" target="_blank" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="600">Google
+                <!--a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=-6.915371,107.598341&zoom=20&dir_action=navigate" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="500">Open Google Map</a>
+                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20221128T040000Z/20221128T070000Z&amp;text=Nisa+%26+Teguh+Wedding&amp;details=Nisa+%26+Teguh+Wedding+on+Sunday%2C+28+November+2022&amp;location=El+Cavana+Hotel+%7C+Jl.+Pasir+Kaliki+No.16-18%2C+Kb.+Jeruk%2C+Kec.+Andir%2C+Kota+Bandung%2C+Jawa+Barat+40181" target="_blank" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="600">Google
                     Calendar</a>
-                <a href="https://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;ST=20221128T040000Z&amp;ET=20221128T070000Z&amp;TITLE=Dinda%20%26%20Rey%20Wedding&amp;DESC=Dinda%20%26%20Rey%20Wedding%20on%20Sunday%2C%2028%20November%202022&amp;in_loc=El%20Cavana%20Hotel%20%7C%20Jl.%20Pasir%20Kaliki%20No.16-18%2C%20Kb.%20Jeruk%2C%20Kec.%20Andir%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040181" target="_blank" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="700">Yahoo
-                    Calendar</a>
+                <a href="https://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;ST=20221128T040000Z&amp;ET=20221128T070000Z&amp;TITLE=Nisa%20%26%20Teguh%20Wedding&amp;DESC=Nisa%20%26%20Teguh%20Wedding%20on%20Sunday%2C%2028%20November%202022&amp;in_loc=El%20Cavana%20Hotel%20%7C%20Jl.%20Pasir%20Kaliki%20No.16-18%2C%20Kb.%20Jeruk%2C%20Kec.%20Andir%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040181" target="_blank" class="btn btn-secondary mt-2 mx-1" data-aos="fade-up" data-aos-delay="700">Yahoo
+                    Calendar</a-->
                 <br><br><br>
             </div>
+
+            <section class="text-center pt-0">
+                <iframe width=100% height=300 id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126756.8530537772!2d107.49162069608131!3d-6.8724250404105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e36d677fe355%3A0xf1920d64158deefa!2sHegarmanah%20Outdoor%20Wedding!5e0!3m2!1sen!2sid!4v1652458760125!5m2!1sen!2sid&language=id" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=-6.8384825,107.4936974&zoom=20&dir_action=navigate" class="btn btn-secondary mt-5 mx-1" data-aos="fade-up" data-aos-delay="500">Open Google Map</a>
+            </section>
+
         </div>
     </section>
 
@@ -522,36 +530,16 @@
                 <div class="row justify-content-md-center">
                     <div class="showComment"></div>
                     <script type="text/javascript">
-                        //$('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
-                        //$('.showComment').load("../../php/show_comment.php");
-                        //$(document).ready(function() {
-                        /*   $('.btn_1').click(function() {
-                                var data = $('.form-guest').serialize();
-                                $.ajax({
-                                    type: 'POST',
-                                    //url: 'https://www.deinvitee.com/php/master.php?menu=guest&act=simpan',
-                                    url: '../../php/master.php?menu=guest&act=simpan',
-                                    data: data,
-                                    success: function() {
-                                        //$('.showComment').load("https://www.deinvitee.com/php/show_comment.php");
-                                        $('.showComment').load("../../php/show_comment.php");
-                                    },
-                                });
-                            });
-                        });*/
-                        $('.showComment').load("../php/show_comment.php");
-                        //$('.showComment').load("../../php/show_comment.php");
+                        $('.showComment').load("https://nisateguh.deinvitee.com/php/show_comment.php");
 
                         function formSubmit() {
                             $.ajax({
                                 type: 'POST',
                                 url: 'https://www.deinvitee.com/php/master.php?menu=guest&act=simpan',
-                                //url: '../../php/master.php?menu=guest&act=simpan',
                                 data: $('#inputform').serialize(),
                                 success: function(response) {
                                     $('#success').html(response);
-                                    $('.showComment').load("../php/show_comment.php");
-                                    //$('.showComment').load("../../php/show_comment.php");
+                                    $('.showComment').load("https://nisateguh.deinvitee.com/php/show_comment.php");
                                     setTimeout(function() {
                                         //alert(response); // this is not calling
                                         $('#success').html('');
@@ -562,919 +550,7 @@
                             return false;
                         }
                     </script>
-                    <!--div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=analis-kesehatan-angkatan-08&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Analis Kesehatan angkatan 08</h5>
-                                    <small class="text-muted">28 November 2022 15:11</small>
-                                </div>
 
-                                <p>Beennn, selamaat berbahagia ya, semoga menjadi pasangan suami istri yg samawa saling melengkapi satu sama lain🤵‍♂️👰</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sman-17-bandung-ipa-4&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMAN 17 Bandung IPA 4</h5>
-                                    <small class="text-muted">28 November 2022 11:11</small>
-                                </div>
-
-                                <p>Barakallahu lakuma wajamaa baina kuma fiikhoir</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=pak-andi-armawan&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Pak Andi Armawan</h5>
-                                    <small class="text-muted">28 November 2022 08:11</small>
-                                </div>
-
-                                <p>sakinah mawadah warrohmah...aamiin</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sman-17-bandung-ipa-4&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMAN 17 Bandung IPA 4</h5>
-                                    <small class="text-muted">27 November 2022 23:11</small>
-                                </div>
-
-                                <p>Ebennn selamat yaa, semoga menjadi keluarga yg sakinnah mawaddah warahmah serta diberikan keturunan yg sholeh sholehah, bahagia selalu eben dan suamiiii aamiin -Dita-❤️
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=warga-villa-cilame-regency&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Warga Villa Cilame Regency</h5>
-                                    <small class="text-muted">27 November 2022 13:11</small>
-                                </div>
-
-                                <p>Insyaallah hadir</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=karyawan-puskesmas-banjaran-kota&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Karyawan Puskesmas Banjaran Kota</h5>
-                                    <small class="text-muted">27 November 2022 09:11</small>
-                                </div>
-
-                                <p>Maaf ya Ben aku pingin banget hadir tpi ternyata hari ini aku masih disibukkan di RS nemenin th Hani karena lahir di Sesar jadi perlu didampingi..... Insha Allah klo ada kesempatan akan hadir, liat situasi di RS dulu....
-                                    Smoga Allah smakin menumbuhkn rasa cinta dan kasih sayang antara Beben dgn suami...... Menjadi keluarga sakinah mawaddah warohmah.... Aamiin....</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
-                                    </h5>
-                                    <small class="text-muted">27 November 2022 06:11</small>
-                                </div>
-
-                                <p>semoga jdi kluarga sakinahmawadah warohmah dan byk rizkina</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=kelompok-lo-solid&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Kelompok LO Solid</h5>
-                                    <small class="text-muted">26 November 2022 17:11</small>
-                                </div>
-
-                                <p>Barakallah Semoga menjadi keluarga yg Sakinah, Mawadah, Warrahmah dan Amanah</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">25 November 2022 19:11</small>
-                                </div>
-
-                                <p>Selamat menempuh hidup baru dan semoga berbahagia selalu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=karyawan-puskesmas-banjaran-kota&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Karyawan Puskesmas Banjaran Kota</h5>
-                                    <small class="text-muted">25 November 2022 19:11</small>
-                                </div>
-
-                                <p>بَارَكَ اللّٰهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِى خَيْرٍ samawa dalam kebaikan.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">25 November 2022 14:11</small>
-                                </div>
-
-                                <p>Baarakallahu laka wa baarakaa alaika wa jamaa bainakumma fii khoir . selamat teh Dinda dan suami ... Semoga SAMAWA... 🤲</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
-                                    </h5>
-                                    <small class="text-muted">25 November 2022 14:11</small>
-                                </div>
-
-                                <p>ngiring bingah mugia samawa</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">25 November 2022 14:11</small>
-                                </div>
-
-                                <p>Semoga SAMARA dan Barokah</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
-                                    </h5>
-                                    <small class="text-muted">25 November 2022 14:11</small>
-                                </div>
-
-                                <p>Smg samawa</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=kelompok-lo-kumis&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Kelompok LO Kumis</h5>
-                                    <small class="text-muted">24 November 2022 20:11</small>
-                                </div>
-
-                                <p>Mugia dilancarken Menjadi keluarga SAMAWA</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=dpupha&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">D&#039;PUPHA</h5>
-                                    <small class="text-muted">24 November 2022 18:11</small>
-                                </div>
-
-                                <p>baarakallahu laka wa baarakaa alaika wa jamaa bainakumma fii khoir . selamat Dinda dan suami . 🤎🤎</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=teh-mariya&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Teh Mariya</h5>
-                                    <small class="text-muted">24 November 2022 17:11</small>
-                                </div>
-
-                                <p>Semoga menjadi keluarga yang sakinah, mawadah nan warahmah. Serta diberikan keturunan yang Sholeh dan Sholehah. Aamiin Ya Robbal&#039;Alamiin 🤲</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=karyawan-puskesmas-banjaran-kota&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Karyawan Puskesmas Banjaran Kota</h5>
-                                    <small class="text-muted">24 November 2022 15:11</small>
-                                </div>
-
-                                <p>Samawa teteh sampe kake nene🙏🏻🥰</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=karyawan-puskesmas-banjaran-kota&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Karyawan Puskesmas Banjaran Kota</h5>
-                                    <small class="text-muted">24 November 2022 15:11</small>
-                                </div>
-
-                                <p>Leslarrrr mh lewatttttt 🎈🎈🎈🎈</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">24 November 2022 12:11</small>
-                                </div>
-
-                                <p>Semoga menjadi keluarga Samawa</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=alumni-spag86-bandung&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">ALUMNI SPAG&#039;86 BANDUNG</h5>
-                                    <small class="text-muted">24 November 2022 08:11</small>
-                                </div>
-
-                                <p>Barakallahu laka wa baraka alaika wa jama&#039;a bainakuma fii khoir , mugia SAMAWA salamima ....Aamiin YRA 🤲</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
-                                    </h5>
-                                    <small class="text-muted">24 November 2022 07:11</small>
-                                </div>
-
-                                <p>Baraakallahu lakaa wa baraka alaika wa jama&#039;a bauna kumaa fii khayr..... Semoga Allah selalu melindungi kalian</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sma-muslimin-2-bandung-temen-temen-mamah-ika&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMA Muslimin 2 bandung (Temen-temen mamah ika)
-                                    </h5>
-                                    <small class="text-muted">24 November 2022 06:11</small>
-                                </div>
-
-                                <p>Semoga SAMAWA.,.....buat anak anak ku</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sman-17-bandung-ipa-4&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">SMAN 17 Bandung IPA 4</h5>
-                                    <small class="text-muted">23 November 2022 20:11</small>
-                                </div>
-
-                                <p>بَارَكَ اللّٰهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِى خَيْرٍ Mugia janten keluarga sakinah mawadah warahmah aamiin..</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=alumni-fkm-ui-2000&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Alumni FKM UI 2000</h5>
-                                    <small class="text-muted">23 November 2022 19:11</small>
-                                </div>
-
-                                <p>Selamat menempuh hidup baru, smg mjd kelg yg samawa...sehat selalu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=akzi91&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">AKZI&#039;91</h5>
-                                    <small class="text-muted">23 November 2022 19:11</small>
-                                </div>
-
-                                <p>Barakallahu lakaa wa baraka alaika wa jama&#039;a bauna kumaa fii khair Semoga berbahagia...buat mempelai berdua....</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=team-touring-bbpk&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">TEAM TOURING BBPK</h5>
-                                    <small class="text-muted">23 November 2022 18:11</small>
-                                </div>
-
-                                <p>Semoga kedua mempelai sakinah mawadah warahmah sampai ajal memisahkan dan DR. Nanang cepat menjadi kakek... Amiinn</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=team-touring-bbpk&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">TEAM TOURING BBPK</h5>
-                                    <small class="text-muted">23 November 2022 17:11</small>
-                                </div>
-
-                                <p>Sammawa, sampai ajal memisahkan, sehat selalu dan bahagia</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=team-touring-bbpk&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">TEAM TOURING BBPK</h5>
-                                    <small class="text-muted">23 November 2022 17:11</small>
-                                </div>
-
-                                <p>Semoga dilimpahkan keluarga yang berkah dan bahagia selalu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=team-touring-bbpk&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">TEAM TOURING BBPK</h5>
-                                    <small class="text-muted">23 November 2022 16:11</small>
-                                </div>
-
-                                <p>Semoga menjadi keluarga sakinah mawadah warohmah ... Aamiin</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=alumni-spag86-bandung&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">ALUMNI SPAG&#039;86 BANDUNG</h5>
-                                    <small class="text-muted">23 November 2022 16:11</small>
-                                </div>
-
-                                <p>Semoga menjadi keluarga yang sakinah mawadah wa Rohmah dan saling menjaga Barokallohu laka
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=mas-nunung-prasetyo&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Mas Nunung Prasetyo</h5>
-                                    <small class="text-muted">23 November 2022 06:11</small>
-                                </div>
-
-                                <p>Semoga jadi keluarga yang sakinah mawadah,warahmah.langgeng dan tambah sukses,aamiin
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=civil-eleven&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Civil eleven</h5>
-                                    <small class="text-muted">23 November 2022 04:11</small>
-                                </div>
-
-                                <p>Lancar dulu acaranya</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=civil-eleven&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Civil eleven</h5>
-                                    <small class="text-muted">22 November 2022 14:11</small>
-                                </div>
-
-                                <p>ok dul</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=civil-eleven&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Civil eleven</h5>
-                                    <small class="text-muted">22 November 2022 13:11</small>
-                                </div>
-
-                                <p>Masak air biar mateng.. Jangan kasih kendor</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=anti-tumila-empayer&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Anti Tumila Empayer</h5>
-                                    <small class="text-muted">24 July 2022 12:07</small>
-                                </div>
-
-                                <p>Barakallah ebeeeen dan suamiii</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">24 July 2022 11:07</small>
-                                </div>
-
-                                <p>Selamat buat ananda berdua, semoga langgeng dan berbahagia selalu.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 16:07</small>
-                                </div>
-
-                                <p>Barakallah</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=limited-edition&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Limited edition</h5>
-                                    <small class="text-muted">23 July 2022 09:07</small>
-                                </div>
-
-                                <p>Alhamdulillah, semoga lancar sampai hari H yaa.. Semoga menjadi keluarga yg samawa, diberkahi selalu, dan langgeng terusss aamiin. Happy Wedding 💜✨💍🤍</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Kpd sang Pengantin... “Baarakallahu laka wa baarakaa alaika wa jamaa bainakumaa fii khoir.” Semoga Allah memberkahimu, baik dalam suka maupun duka dan selalu mengumpulkan kamu berdua pada kebaikan. SAMARA Untill JANNAH
-                                    Nya Allah SWT.. drg.Hj. SRI ASIG GAHAYU,M.Kes,PhD BBPK Ciloto</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>&quot;Baarakallahu laka wa baarakaa alaika wa jamaa bainakumaa fii khoir.&quot; (Mudah-mudahan Allah memberkahimu, ketika senang maupun susah dan akan mengumpulkan kalian berdua dalam kebaikan.)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Semoga samawa pak nanang</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Barokallohu laka jama&#039;a bainakuma fii khoirin, barokallohu likulli wahidin minkuma fishahibil wajamabainakuma fii khairin..Aamiin yaa robbal aalamin</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Semoga samawa sakinah mawadah warohmah</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Semoga Menjadi keluarga samawa Dilancarkan acaranya....</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Selamat, Teh Dinda, Pak Nanang dan Keluarga.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Selamat untuk putra/putri pak. Nanang, semoga menjadi keluarga Sakinah, Mawadah, Warohmah ..</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Semoga menjadi keluarga sakinah mawadah warohmah ... Aamiin</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Selamat menempuh hidup baru Semoga menjadi keluarga sakinah mawadah warohmah</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 08:07</small>
-                                </div>
-
-                                <p>Semoga Samawwa sampai Jannah, Amin yra</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 07:07</small>
-                                </div>
-
-                                <p>Selamat buat keluarga pa nanang, atas pernikahan putrinya, semoga lancar, jadi keluarga sakinah, mawadah warahmah dan diberi keturunan yang Soleh dan solehah</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 07:07</small>
-                                </div>
-
-                                <p>Wilujeung Mugia janten keluarga sakinah mawahdah warrahmah</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=bbpk-ciloto&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BBPK CILOTO</h5>
-                                    <small class="text-muted">23 July 2022 07:07</small>
-                                </div>
-
-                                <p>Moga jadi keluarga yang SAMAWA bersama sampi akhir hayat yang memisahkan</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">22 July 2022 21:07</small>
-                                </div>
-
-                                <p>Semoga dapat membina rumah tangga yg SAMAWA dan Insha Allah kelak dikaruniai keturunan yg sholeh dan sholeha serta membawa manfaat utk orang banyak..aamiin.. (Nur Sadji)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">22 July 2022 08:07</small>
-                                </div>
-
-                                <p>Ngiring Bingah .. mugi janten kulawaegi sakinah mawaddah warahmah.. Barakallaahulaka wajama&#039;a bainakuma fii khoir.. Aamiin ... (evi)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=sahabat-dinkes-cianjur&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Sahabat Dinkes Cianjur</h5>
-                                    <small class="text-muted">22 July 2022 08:07</small>
-                                </div>
-
-                                <p>Barrakallah...semoga ananda bahagia jadi keluarga Sakinah Mawadah Warahmah...aamiin yra
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=karyawan-puskesmas-banjaran-kota&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Karyawan Puskesmas Banjaran Kota</h5>
-                                    <small class="text-muted">22 July 2022 06:07</small>
-                                </div>
-
-                                <p>Bismilah....selamat buat Dinda semoga menjadi keluarga yg SAMAWA..sukses acaranya dan d beri kelancaran..aamiin ( ateu wina )</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=akzi91&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">AKZI&#039;91</h5>
-                                    <small class="text-muted">21 July 2022 21:07</small>
-                                </div>
-
-                                <p>Dua jadi satu tuk selamanya, Tuhan memberkati dan melidunngi Parlin sihombing, bengkulu
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=alumni-spag86-bandung&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">ALUMNI SPAG&#039;86 BANDUNG</h5>
-                                    <small class="text-muted">21 July 2022 20:07</small>
-                                </div>
-
-                                <p>Ngiring bingah kang, smoga putra putrina janten kulawargi samawa,,,Aamiin yra</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=karyawan-puskesmas-banjaran-kota&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Karyawan Puskesmas Banjaran Kota</h5>
-                                    <small class="text-muted">21 July 2022 20:07</small>
-                                </div>
-
-                                <p>Barokallohulakuma wabaroka &#039;alaikuma wajama&#039;a bainakuma fii khoir...aaamiiin YRA</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=karyawan-puskesmas-banjaran-kota&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Karyawan Puskesmas Banjaran Kota</h5>
-                                    <small class="text-muted">21 July 2022 19:07</small>
-                                </div>
-
-                                <p>Selamat Menempuh Hidup Baru bersama..Semoga menjadi kelg yang Sakinah Mawaddah Warohmah..Aamiin YRA</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=alumni-spag86-bandung&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">ALUMNI SPAG&#039;86 BANDUNG</h5>
-                                    <small class="text-muted">21 July 2022 19:07</small>
-                                </div>
-
-                                <p>Semoga menjadi keluarga yang sakinah, mawadah warohmah ( dari Ahmad Rosid, SE, MM, M.Si /Bekasi )</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=biwan&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BIWAN</h5>
-                                    <small class="text-muted">21 July 2022 18:07</small>
-                                </div>
-
-                                <p>Waallaikumsalam wr wb. Wilujeng kang Nanang sareng ngiring bingah. Mugia acarana lancar dan ananda janten keluarga SAMAWA. Aamiin Ya Robbal Aalamiin.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=alumni-spag86-bandung&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">ALUMNI SPAG&#039;86 BANDUNG</h5>
-                                    <small class="text-muted">21 July 2022 17:07</small>
-                                </div>
-
-                                <p>Semoga dijadikan keluarga sakinah mawadah warohmah... Aamiin....
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=alumni-spag86-bandung&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">ALUMNI SPAG&#039;86 BANDUNG</h5>
-                                    <small class="text-muted">21 July 2022 17:07</small>
-                                </div>
-
-                                <p>Semoga Lancar Acaranya ..jadi Keluarga Sakinah Mawaddah Warohmah. Aamiin.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=biwan&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">BIWAN</h5>
-                                    <small class="text-muted">21 July 2022 17:07</small>
-                                </div>
-
-                                <p>Ngiring bingah, Semoga Allah memudahkan, melancarkan semua urusan ananda dan menjadikan keduanya keluarga yang sakinah mawaddah warahmah Aamiiin🤲
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=akzi91&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">AKZI&#039;91</h5>
-                                    <small class="text-muted">21 July 2022 17:07</small>
-                                </div>
-
-                                <p>Semoga acara pernikahan berlangsung lancar dan pengantin akan menjadi pasangan yang sakinah,mawadah dan warohmah. Juga membahagiakan orang tua.Aamin</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=civil-eleven&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Civil eleven</h5>
-                                    <small class="text-muted">20 July 2022 17:07</small>
-                                </div>
-
-                                <p>Jangan kasih kendor</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                        <div class="media px-3 media-comment">
-                            <img class="rounded-circle mr-3 d-none d-sm-block d-md-block d-lg-block" src=https://na.ui-avatars.com/api/?name=civil-eleven&size=50&background=111&color=ffffff alt="Image Avatar">
-                            <div class="media-body">
-                                <div class="mb-2">
-                                    <h5 class="h6 mb-0 text-secondary">Civil eleven</h5>
-                                    <small class="text-muted">20 July 2022 17:07</small>
-                                </div>
-
-                                <p>Jangan kasih kendor</p>
-                            </div>
-                        </div>
-                    </div-->
                 </div>
             </div>
         </div>
