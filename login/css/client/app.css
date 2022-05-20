@@ -11919,7 +11919,7 @@ input:focus {
 @font-face {
     font-family: Roboto;
     src: url(/fonts/Roboto-Bold.eot?4a1d8c27dac2c1bdee46fcfb5c80089b);
-    src: url(/fonts/Roboto-Bold.eot?4a1d8c27dac2c1bdee46fcfb5c80089b) format("embedded-opentype"), url(/fonts/Roboto-Bold.woff2?f3a02e2578bee50e620e515912278bc9) format("woff2"), url(/fonts/Roboto-Bold.woff?08cb8f79715774f9a6285ee7db2919a3) format("woff"), url(/fonts/Roboto-Bold.ttf?16d7bb99c6f81cacdd91cd92d8ddb545) format("truetype");
+    src: url(/fonts/Roboto-Bold.eot?4a1d8c27dac2c1bdee46fcfb5c80089b) format("embedded-opentype"), url(/fonts/Roboto-Bold.woff2) format("woff2"), url(/fonts/Roboto-Bold.woff) format("woff"), url(/fonts/Roboto-Bold.ttf) format("truetype");
     font-weight: 700;
     font-style: normal
 }

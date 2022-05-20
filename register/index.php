@@ -1,3 +1,49 @@
+<?php
+
+include '../php/connect.php';
+
+error_reporting(0);
+
+session_start();
+
+if (isset($_SESSION['username'])) {
+    header("Location: https://deinvitee.com/login");
+}
+
+if (isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $whatsapp = $_POST['whatsapp'];
+    $password = md5($_POST['password']);
+    $cpassword = md5($_POST['cpassword']);
+
+    if ($password == $cpassword) {
+        $sql = "SELECT * FROM aDEUser WHERE email='$email'";
+        $result = mysqli_query($db, $sql);
+        if (!$result->num_rows > 0) {
+            $sql = "INSERT INTO aDEUser (username, name, email, whatsapp, password)
+                    VALUES ('$username', '$name', '$email', '$whatsapp', '$password')";
+            $result = mysqli_query($db, $sql);
+            if ($result) {
+                echo "<script>alert('Selamat, registrasi berhasil!')</script>";
+                $username = "";
+                $email = "";
+                $_POST['password'] = "";
+                $_POST['cpassword'] = "";
+            } else {
+                echo "<script>alert('Woops! Terjadi kesalahan.')</script>";
+            }
+        } else {
+            echo "<script>alert('Woops! Email Sudah Terdaftar.')</script>";
+        }
+    } else {
+        echo "<script>alert('Password Tidak Sesuai')</script>";
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 
@@ -15,7 +61,20 @@
     <link rel="stylesheet" href="../css/materialdesignicons.min.css">
     <link rel="stylesheet" href="css/client/app.css">
 
-    <link rel="shortcut icon" href="https://deinvitee.com/images/favicon.png">
+    <link rel="shortcut icon" href="https://deinvitee.com/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://deinvitee.com/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://deinvitee.com/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://deinvitee.com/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://deinvitee.com/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://deinvitee.com/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://deinvitee.com/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://deinvitee.com/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://deinvitee.com/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://deinvitee.com/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://deinvitee.com/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://deinvitee.com/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://deinvitee.com/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://deinvitee.com/icon/favicon-16x16.png">
 </head>
 
 <body>
@@ -29,31 +88,27 @@
                             <a href="https://deinvitee.com" class="d-block mb-5"><img src=https://deinvitee.com/images/logo-color.png alt="logo"></a>
                         </div>
                         <div class="auth-form-light py-5 px-4 px-sm-5">
-                            <form class="pt-3" action="https://deinvitee.com/register" method="POST">
+                            <form class="pt-3" action="" method="POST">
                                 <input type=hidden name=_token value="7DCpZxfEU0iw4hqlZahdPPhImwJd3LgbdJmdxzU7">
-                                <div class="form-group input-group subdomain mb-0" data-url="https://deinvitee.com/api/check-subdomain">
-                                    <input type=text style="border-top-right-radius: 0;border-bottom-right-radius: 0;" class="form-control form-control-lg " name=domain id="domain" placeholder="namapasangan" value="" aria-label="romeojuliet" aria-describedby="basic-addon2" minlength="3"
-                                        maxlength="30" required autofocus>
-                                    <div class="input-group-append">
-                                        <span style="border-top-right-radius: 5px;border-bottom-right-radius: 5px;" class="input-group-text" id="basic-addon2">.deinvitee.com</span>
-                                    </div>
-                                    <span class="invalid-feedback domain-validation" style="display: none;" role="alert">
-                      <strong>Domain sudah digunakan!</strong>
-                  </span>
+                                <div class="form-group mt-4">
+                                    <input type=text name=username class="form-control form-control-lg " id="InputName1" placeholder="Username" value="<?php echo $username; ?>" required>
                                 </div>
                                 <div class="form-group mt-4">
-                                    <input type=name name=name class="form-control form-control-lg " id="InputName1" placeholder="Nama" value="" required>
+                                    <input type=name name=name class="form-control form-control-lg " id="InputName1" placeholder="Nama" value="<?php echo $name; ?>" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type=email name=email class="form-control form-control-lg " id="InputEmail1" placeholder="Email" value="" required autocomplete="email">
+                                    <input type=email name=email class="form-control form-control-lg " id="InputEmail1" placeholder="Email" value="<?php echo $email; ?>" required autocomplete="email">
                                 </div>
                                 <div class="form-group">
-                                    <input type=number name=phone class="form-control form-control-lg " id="InputEmail1" placeholder="WhatsApp" value="" required>
+                                    <input type=number name=whatsapp class="form-control form-control-lg " id="InputEmail1" placeholder="WhatsApp" value="<?php echo $whatsapp; ?>" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type=password name=password class="form-control form-control-lg " id="InputPassword1" placeholder="Password" required>
+                                    <input type=password name=password class="form-control form-control-lg " id="InputPassword1" placeholder="Password" value="<?php echo $_POST['password']; ?>" required>
                                 </div>
-                                <div class="my-2 d-flex justify-content-between align-items-center">
+                                <div class="form-group">
+                                    <input type=password name=cpassword class="form-control form-control-lg " id="ConfirmInputPassword1" placeholder="Confirm Password" value="<?php echo $_POST['cpassword']; ?>" required>
+                                </div>
+                                <!--div class="my-2 d-flex justify-content-between align-items-center">
                                     <div class="form-check">
                                         <label class="form-check-label text-muted">
                       <input type=checkbox class="form-check-input" name=agree-term value="1" required>
@@ -61,9 +116,9 @@
                     </label>
                                     </div>
                                     <a href="https://deinvitee.com/terms-conditions" class="auth-link text-black">Read this</a>
-                                </div>
+                                </div-->
                                 <div class="mt-3">
-                                    <button type=submit class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" onclick="submitForm(this);">BUAT UNDANGAN</button>
+                                    <button name=submit class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">BUAT UNDANGAN</button>
                                 </div>
 
                             </form>
