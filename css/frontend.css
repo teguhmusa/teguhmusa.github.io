@@ -28581,3 +28581,12 @@ p {
         min-height: calc(100vh - 20px)
     }
 }
+
+.combo-item {
+    color: #696871;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -.56px;
+    line-height: 28px;
+    margin-bottom: 22px
+}

@@ -478,7 +478,7 @@
 
             <section class="text-center pt-0">
                 <iframe width=100% height=300 id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126756.8530537772!2d107.49162069608131!3d-6.8724250404105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e36d677fe355%3A0xf1920d64158deefa!2sHegarmanah%20Outdoor%20Wedding!5e0!3m2!1sen!2sid!4v1652458760125!5m2!1sen!2sid&language=id" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=-6.8384825,107.4936974&zoom=20&dir_action=navigate" class="btn btn-secondary mt-5 mx-1" data-aos="fade-up" data-aos-delay="500">Open Google Map</a>
+                <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=-6.8384825,107.4936974&zoom=20" class="btn btn-secondary mt-5 mx-1" data-aos="fade-up" data-aos-delay="500">Open Google Map</a>
             </section>
 
         </div>
@@ -550,7 +550,6 @@
                             return false;
                         }
                     </script>
-
                 </div>
             </div>
         </div>
