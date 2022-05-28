@@ -7,7 +7,7 @@ error_reporting(0);
 session_start();
 
 if (isset($_SESSION['username'])) {
-    header("Location: berhasil_login.php");
+    header("Location: https://deinvitee.com");
 }
 
 if (isset($_POST['submit'])) {
@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
         echo "test2";
         $row = mysqli_fetch_assoc($result);
         $_SESSION['username'] = $row['username'];
-        header("Location: berhasil_login.php");
+        header("Location: https://deinvitee.com");
     } else {
         echo "<script>alert('Email atau password Anda salah. Silahkan coba lagi!')</script>";
     }

@@ -26,14 +26,14 @@
     <meta name=googlebot-news content="noindex">
     <meta name=googlebot content="noindex">
     <meta name=robots content="noindex">
-    <meta name=description content="Nisa &amp; Teguh are getting married on Sunday, 28 November 2022. Undangan pernikahan online by musaharpa.com">
+    <meta name=description content="Nisa &amp; Teguh are getting married on Saturday, 13 August 2022. Undangan pernikahan online by musaharpa.com">
     <meta name=keywords content="deinvitee,undangan,pernikahan,online,website,wedding,invitation">
     <meta name=twitter:card content="summary">
     <meta name=twitter:site content="@deinvitee">
     <meta name=twitter:creator content="@deinvitee">
     <meta property="og:url" content="https://nisateguh.deinvitee.com">
     <meta property="og:title" content="Nisa &amp; Teguh Wedding">
-    <meta property="og:description" content="Nisa &amp; Teguh are getting married on Sunday, 28 November 2022. Undangan pernikahan online by musaharpa.com">
+    <meta property="og:description" content="Nisa &amp; Teguh are getting married on Saturday, 13 August 2022. Undangan pernikahan online by musaharpa.com">
     <meta property="og:image" content="../uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg">
     <meta property="og:image:alt" content="Nisa &amp; Teguh Wedding Image">
     <title>Nisa &amp; Teguh Wedding</title>
@@ -95,7 +95,7 @@
                 <h2 class="mt-4 mb-4 display-4">
                     Nisa & Teguh
                 </h2>
-                <h5 class="font-weight date-sparator">13 Agustus 2022</h5>
+                <h5 class="font-weight date-sparator">13 August 2022</h5>
                 <br><br>
                 <button type=button class="btn btn-md btn-secondary open_invitation px-5" style="z-index:100">Open
                     Invitation</button>
@@ -112,7 +112,7 @@
                     <img src=./themes/dancingpiano/images/flower.png alt="flower" style="max-width:100px;max-height:100px;margin-bottom:50px">
                     <h3>The Wedding Of</h3>
                     <h1 class="display-1 font-weight-bold mb-4">Nisa & Teguh</h1>
-                    <p class="date-sparator mb-3">13 Agustus 2022</p>
+                    <p class="date-sparator mb-3">13 August 2022</p>
                 </div>
             </header>
         </div>

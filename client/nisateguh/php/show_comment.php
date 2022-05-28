@@ -1,6 +1,6 @@
 <?php
 include "connect.php";
-$sql = "select sender, reservation, message, dateTimeStr FROM aDEUserMessage WHERE coupleId= 'nisateguh' order by createdDate desc";
+$sql = "select sender, reservation, message, dateTimeStr FROM aDEUserMessage WHERE coupleId= 'nisateguh' AND IsApproved = 1 order by createdDate desc";
 $result = $db->query($sql);
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {

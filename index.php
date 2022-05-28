@@ -1,3 +1,13 @@
+<?php
+
+include 'php/connect.php';
+
+error_reporting(0);
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 
@@ -157,15 +167,29 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link goto" href="#blog">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="http://localhost/teguhmusa.github.io/login">Login</a>
                                 </li-->
+                                <?php if (!isset($_SESSION['username'])) : ?>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://deinvitee.com/login">Login</a>
+                                    </li>
+                                <?php endif; ?>
+                                <?php if (isset($_SESSION['username'])) : ?>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/login/logout.php">Logout</a>
+                                    </li>
+                                <?php endif; ?>
                             </ul>
                         </div>
-                        <div class="header-btns justify-content-end">
-                            <a class="btn btn--primary btn-header hvr-bounce-to-left" href="https://deinvitee.com/register">Buat Undangan</a>
-                        </div>
+                        <?php if (!isset($_SESSION['username'])) : ?>
+                            <div class="header-btns justify-content-end">
+                                <a class="btn btn--primary btn-header hvr-bounce-to-left" href="https://deinvitee.com/register">Buat Undangan</a>
+                            </div>
+                        <?php endif; ?>
+                        <?php if (isset($_SESSION['username'])) : ?>
+                            <div class="header-btns justify-content-end">
+                                <a class="btn btn--primary btn-header hvr-bounce-to-left" href="https://deinvitee.com/dashboard">Dashboard</a>
+                            </div>
+                        <?php endif; ?>
                     </div>
                     <button class="navbar-toggler btn-close-off-canvas" type=button data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="icon icon-simple-remove icon-close"></i>
@@ -1225,16 +1249,12 @@
                         </div>
                         <div class="col-sm-6 text-sm-right text-center">
                             <ul class="social-icons">
-                                <li><a href="https://deinvitee.com/sitemap.xml" title="Sitemap deinvitee.com"><i
-                                            class="fal fa-sitemap"></i></a></li>
-                                <li><a href="https://www.instagram.com/deinvitee" target="_blank" title="Instagram deinvitee.com" rel="noreferrer"><i
-                                            class="fab fa-instagram"></i></a>
+                                <li><a href="https://deinvitee.com/sitemap.xml" title="Sitemap deinvitee.com"><i class="fal fa-sitemap"></i></a></li>
+                                <li><a href="https://www.instagram.com/deinvitee" target="_blank" title="Instagram deinvitee.com" rel="noreferrer"><i class="fab fa-instagram"></i></a>
                                 </li>
-                                <li><a href="https://www.facebook.com/deinvitee" target="_blank" title="Facebook deinvitee.com" rel="noreferrer"><i
-                                            class="fab fa-facebook"></i></a>
+                                <li><a href="https://www.facebook.com/deinvitee" target="_blank" title="Facebook deinvitee.com" rel="noreferrer"><i class="fab fa-facebook"></i></a>
                                 </li>
-                                <li><a href="https://twitter.com/deinvitee" target="_blank" title="Twitter deinvitee.com" rel="noreferrer"><i
-                                            class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://twitter.com/deinvitee" target="_blank" title="Twitter deinvitee.com" rel="noreferrer"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1303,8 +1323,7 @@
                         </div>
                     </div>
                 </div>
-                <button type=button class="contact-floating" data-toggle="modal" data-target="#floatingModal"><i
-                        class="fab fa-whatsapp"></i></button>
+                <button type=button class="contact-floating" data-toggle="modal" data-target="#floatingModal"><i class="fab fa-whatsapp"></i></button>
             </div>
         </div>
     </div>
