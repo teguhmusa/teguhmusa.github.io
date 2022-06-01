@@ -28,18 +28,20 @@ $result = $db->query($sql);
 if ($result->num_rows > 0) {
 
     while ($row = $result->fetch_assoc()) {
-        echo  '<tr class="theMessages">';
-
-        //echo "<td><input name="chk_id[]" type="checkbox" class='chkbox' value="<?php echo $row['id'];
-        echo '<td><input name="chk_id[]" type="checkbox" class="chkbox" value="' . $row['id'] . '"></input></td>';
-        echo "<td>" . $row["sender"] . "</td>";
-        echo "<td>" . $row["reservation"] . "</td>";
-        echo "<td>" . $row["message"] . "</td>";
-        echo "<td>" . $row["dateTimeStr"] . "</td>";
+        echo  '<tr>';
+        echo '<td style="width:5%;"><input name="chk_id[]" type="checkbox" class="chkbox" value="' . $row['id'] . '"></input></td>';
+        echo "<td style=\"width:15%;\">" . $row["sender"] . "</td>";
+        if($row["reservation"]=="hadir"){
+            echo "<td style=\"width:10%;\">Hadir</td>";
+        }else{
+            echo "<td style=\"width:10%;\">Tidak Hadir</td>";
+        }
+        echo "<td style=\"width:45%;\">" . $row["message"] . "</td>";
+        echo "<td style=\"width:15%;\">" . $row["dateTimeStr"] . "</td>";
         if ($row['IsApproved'] == 1) {
-            echo '<td>Approved</td>';
+            echo '<td style="width:10%;">Approved</td>';
         } else {
-            echo '<td>Pending</td>';
+            echo '<td style="width:10%;">Pending</td>';
         }
         echo '</tr>';
     }

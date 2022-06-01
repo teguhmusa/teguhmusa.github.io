@@ -139,7 +139,6 @@ session_start();
 
 <body oncontextmenu="return false">
     <div class="site-wrapper overflow-hidden">
-
         <header class="site-header bg--conflower-blue sticky-header">
             <div class="container-fluid pr-lg--30 pl-lg--30">
                 <nav class="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light">

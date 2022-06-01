@@ -1,3 +1,12 @@
+<?php
+
+if (isset($_GET['guest'])) {
+    $guest = $_GET['guest'];
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="id">
 
@@ -113,6 +122,14 @@
                     <h3>The Wedding Of</h3>
                     <h1 class="display-1 font-weight-bold mb-4">Nisa & Teguh</h1>
                     <p class="date-sparator mb-3">13 August 2022</p>
+                    <?php if (isset($_GET['guest'])) { ?>
+                        <div class="mb-1 to">
+                            <i>Kepada Yth <br> Bapak/Ibu/Saudara/i</i>
+                            <h5 class="font-weight-bold mt-1"><?php echo $_GET['guest']; ?></h5>
+                            <span class="font-italic"> di Yogyakarta </span>
+                        </div>
+                    <?php } ?>
+
                 </div>
             </header>
         </div>
@@ -251,12 +268,13 @@
                     <div class="card information h-100">
                         <div class="card-body">
                             <div class="row mt-4">
-                                <div class="col pt-1" style="font-size:0.9rem">
-                                    Agustus <br> 2022
+                                <div class="col" style="font-size:1.2rem; padding-top:20px">
+                                    Sabtu
                                 </div>
                                 <div class="col date">
-                                    <span class="d-block">13</span> Sabtu
+                                    13 Agustus <br> 2022
                                 </div>
+
                                 <div class="col pt-1" style="font-size:0.9rem">
                                     Hegarmanah Wedding Outdoor
                                 </div>
@@ -501,7 +519,7 @@
                             <input type=hidden name=coupleId value="nisateguh">
                             <div class="form-group">
                                 <label for="guestName">Nama</label>
-                                <input type=text class="form-control" id="guestName" name=sender value="" placeholder="Your Name" autocomplete="off" required>
+                                <input type=text class="form-control" id="guestName" name=sender value="<?php echo $_GET['guest']; ?>" placeholder="Your Name" autocomplete="off" required>
                             </div>
                             <div class="form-group">
                                 <label for="attendance">Kedatangan</label>

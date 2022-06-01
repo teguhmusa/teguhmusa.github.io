@@ -18,6 +18,15 @@ while ($rowUser = mysqli_fetch_assoc($resultUser)) {
     $coupleId = $rowUser['coupleId'];
 }
 
+//fetsh nb of invitee
+
+$resultCount = @mysqli_query($db, "SELECT count(*) as total from aDEUserMessage where coupleId = '$coupleId' AND reservation = 'hadir'");
+$jumlahHadir = mysqli_fetch_assoc($resultCount);
+//echo "<script type='text/javascript'>alert('test " . $jumlahHadir . "hjhdfh" . $resultCount . "');</script>";
+
+$resultCount = @mysqli_query($db, "SELECT count(*) as total from aDEUserMessage where coupleId = '$coupleId' and reservation = 'tidak_hadir'");
+$jumlahTidakHadir = mysqli_fetch_assoc($resultCount);
+
 $result = @mysqli_query($db, "SELECT * FROM aDEUserMessage where coupleId = '$coupleId' order by createdDate desc ") or die("Error: " . mysqli_error($db));
 
 // accept message
@@ -79,9 +88,11 @@ if (isset($_POST['chk_id'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" media="all">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
 
     <link rel="stylesheet" href="https://deinvitee.com/css/frontend.css" media="all">
+    <link rel="stylesheet" href="https://deinvitee.com/css/client/app.css" media="all">
     <link rel="canonical" href="https://deinvitee.com">
     <meta name=title content="Online Website Invitation">
     <meta name=description content="Buat Online Website Invitation semudah bermain sosmed. Dengan fitur terlengkap, termurah dan tema yang menarik. Buat undangan pernikahan digital gratis sekarang juga!">
@@ -179,11 +190,19 @@ if (isset($_POST['chk_id'])) {
     </script>
 
     <style>
-        .combo-padding {
+        .tab-padding {
             top: 0;
             left: 0;
             width: 100%;
             padding-top: 80px;
+            padding-left: 30px
+        }
+
+        .combo-padding {
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding-top: 30px;
             padding-left: 30px
         }
 
@@ -206,11 +225,20 @@ if (isset($_POST['chk_id'])) {
         }
 
         @media (min-width:768px) {
-            .combo-padding {
+
+            .tab-padding {
                 top: 0;
                 left: 0;
                 width: 100%;
                 padding-top: 80px;
+                padding-left: 40px
+            }
+
+            .combo-padding {
+                top: 0;
+                left: 0;
+                width: 100%;
+                padding-top: 30px;
                 padding-left: 40px
             }
 
@@ -226,11 +254,19 @@ if (isset($_POST['chk_id'])) {
         }
 
         @media (min-width:992px) {
-            .combo-padding {
+            .tab-padding {
                 top: 0;
                 left: 0;
                 width: 100%;
                 padding-top: 80px;
+                padding-left: 55px
+            }
+
+            .combo-padding {
+                top: 0;
+                left: 0;
+                width: 100%;
+                padding-top: 30px;
                 padding-left: 55px
             }
 
@@ -285,45 +321,110 @@ if (isset($_POST['chk_id'])) {
                 </nav>
             </div>
         </header>
-        <div class="row combo-padding">
-            <div class="filter-title">
-                <td>Filter Message: </td>
+
+        <div class="w3-bar w3-light-grey tab-padding">
+            <button class="w3-bar-item w3-button tablink w3-red" onclick="openTab(event,'Message')">Message</button>
+            <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Statistic')">Statistic</button>
+        </div>
+        <div id="Message" class="w3-container w3-border theTab">
+            <div class="row combo-padding">
+                <div class="filter-title">
+                    <td>Filter Message: </td>
+                </div>
+                <div>
+                    <select id="statusDropdown">
+                        <option value="0">All</option>
+                        <option value="1">Accepted</option>
+                        <option value="2">Pending</option>
+                    </select>
+                </div>
             </div>
-            <div>
-                <select id="statusDropdown">
-                    <option value="0">All</option>
-                    <option value="1">Accepted</option>
-                    <option value="2">Pending</option>
-                </select>
+            <div class="message-page">
+                <form id="thisForm" action="index.php" method="post">
+                    <?php if (isset($_GET['msg'])) { ?>
+                        <p class="alert alert-success"><?php echo $_GET['msg']; ?></p>
+                    <?php } ?>
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th style="width:5%;"><input id="chk_all" name="chk_all" type="checkbox" /></th>
+                                <th style="width:15%;">Sender</th>
+                                <th style="width:10%;">Reservation</th>
+                                <th style="width:45%;">Message</th>
+                                <th style="width:15%;">Date</th>
+                                <th style="width:10%;">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="showMessage">
+                            <div></div>
+                            <script type="text/javascript">
+                                $('.showMessage').load(<?php echo "'https://deinvitee.com/php/show_message.php?statusFilter=0&coupleId=$coupleId'"; ?>);
+                            </script>
+                        </tbody>
+                    </table>
+                    <input id="update_button" name="update_button" type="submit" class="btn btn-danger" value="Accept Message(s)" />
+                    <input id="delete_button" name="delete_button" type="submit" class="btn btn-danger" value="Delete Message(s)" />
+                    <br> <br>
+                </form>
             </div>
         </div>
 
-        <div class="message-page">
-            <form id="thisForm" action="index.php" method="post">
-                <?php if (isset($_GET['msg'])) { ?>
-                    <p class="alert alert-success"><?php echo $_GET['msg']; ?></p>
-                <?php } ?>
-                <table class="table table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <th><input id="chk_all" name="chk_all" type="checkbox" /></th>
-                            <th>Sender</th>
-                            <th>Reservation</th>
-                            <th>Message</th>
-                            <th>Date</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-                    <tbody class="showMessage">
-                        <div></div>
-                        <script type="text/javascript">
-                            $('.showMessage').load(<?php echo "'https://deinvitee.com/php/show_message.php?statusFilter=0&coupleId=$coupleId'"; ?>);
-                        </script>
-                    </tbody>
-                </table>
-                <input id="update_button" name="update_button" type="submit" class="btn btn-danger" value="Accept Selected Message(s)" />
-                <input id="delete_button" name="delete_button" type="submit" class="btn btn-danger" value="Delete Selected Message(s)" />
-            </form>
+        <div id="Statistic" class="w3-container w3-border theTab" style="display:none">
+            <div class="content-wrapper">
+                <div class="row">
+                    <div class="col-md-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body dashboard-tabs p-0">
+                                <div class="tab-content py-0 px-0">
+                                    <div class="tab-pane fade show active">
+                                        <div class="d-flex flex-wrap justify-content-xl-between">
+                                            <div class="d-none d-md-none d-xl-flex first border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                                                <i class="mdi mdi-account-multiple icon-lg mr-3 text-primary"></i>
+                                                <div class="d-flex flex-column justify-content-around" style="min-width: 130px;">
+                                                    <small class="mb-1 text-muted">Total Tamu Undangan</small>
+                                                    <h5 class="mr-2 mb-0">0</h5>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                                                <i class="mdi mdi-account-plus mr-3 icon-lg text-success"></i>
+                                                <div class="d-flex flex-column justify-content-around" style="min-width: 130px;">
+                                                    <small class="mb-1 text-muted">Tamu Di Undang</small>
+                                                    <h5 class="mr-2 mb-0">0</h5>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                                                <i class="mdi mdi-account-minus mr-3 icon-lg text-warning"></i>
+                                                <div class="d-flex flex-column justify-content-around" style="min-width: 130px;">
+                                                    <small class="mb-1 text-muted">Tamu Bisa Hadir</small>
+                                                    <h5 class="mr-2 mb-0"><?php echo $jumlahHadir["total"]; ?></h5>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex py-3 border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                                                <i class="mdi mdi-account-check mr-3 icon-lg text-info"></i>
+
+                                                <div class="d-flex flex-column justify-content-around" style="min-width: 130px;">
+                                                    <small class="mb-1 text-muted">Tamu Tidak Bisa Hadir</small>
+                                                    <h5 class="mr-2 mb-0"><?php echo $jumlahTidakHadir["total"]; ?></h5>
+                                                </div>
+
+                                            </div>
+                                            <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
+                                                <i class="mdi mdi-message-text mr-3 icon-lg" style="color:#50adf7"></i>
+
+                                                <div class="d-flex flex-column justify-content-around" style="min-width: 130px;">
+                                                    <small class="mb-1 text-muted">Buku Tamu</small>
+                                                    <h5 class="mr-2 mb-0">0</h5>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -371,6 +472,40 @@ if (isset($_POST['chk_id'])) {
         });
     </script>
 
+    <script>
+        function openTab(evt, tabName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("theTab");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " w3-red";
+        }
+    </script>
+    <script>
+        // Change the selector if needed
+        var $table = $('table.table'),
+            $bodyCells = $table.find('tbody tr:first').children(),
+            colWidth;
+
+        // Adjust the width of thead cells when window resizes
+        $(window).resize(function() {
+            // Get the tbody columns width array
+            colWidth = $bodyCells.map(function() {
+                return $(this).width();
+            }).get();
+
+            // Set the width of thead columns
+            $table.find('thead tr').children().each(function(i, v) {
+                $(v).width(colWidth[i]);
+            });
+        }).resize(); // Trigger resize handler
+    </script>
 </body>
 
 </html>
