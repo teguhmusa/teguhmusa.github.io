@@ -156,8 +156,6 @@ if (isset($_GET['guest'])) {
             </g>
         </svg>
     </section>
-
-
     <section>
         <div class="container" data-aos="fade-up">
             <div class="col-md-12">
