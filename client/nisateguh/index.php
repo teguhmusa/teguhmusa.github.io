@@ -35,14 +35,16 @@ if (isset($_GET['guest'])) {
     <meta name=googlebot-news content="noindex">
     <meta name=googlebot content="noindex">
     <meta name=robots content="noindex">
-    <meta name=description content="Nisa &amp; Teguh are getting married on Saturday, 13 August 2022. Undangan pernikahan online by musaharpa.com">
+    <meta name=description
+        content="Nisa &amp; Teguh are getting married on Saturday, 13 August 2022. Undangan pernikahan online by musaharpa.com">
     <meta name=keywords content="deinvitee,undangan,pernikahan,online,website,wedding,invitation">
     <meta name=twitter:card content="summary">
     <meta name=twitter:site content="@deinvitee">
     <meta name=twitter:creator content="@deinvitee">
     <meta property="og:url" content="https://nisateguh.deinvitee.com">
     <meta property="og:title" content="Nisa &amp; Teguh Wedding">
-    <meta property="og:description" content="Nisa &amp; Teguh are getting married on Saturday, 13 August 2022. Undangan pernikahan online by musaharpa.com">
+    <meta property="og:description"
+        content="Nisa &amp; Teguh are getting married on Saturday, 13 August 2022. Undangan pernikahan online by musaharpa.com">
     <meta property="og:image" content="../uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg">
     <meta property="og:image:alt" content="Nisa &amp; Teguh Wedding Image">
     <title>Nisa &amp; Teguh Wedding</title>
@@ -65,35 +67,50 @@ if (isset($_GET['guest'])) {
 <body>
     <nav class="navbar navbar-expand-lg fixed-bottom navbar-light bg-light" id="bot-menu">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item active"><a class="nav-link" href="#home"><svg width=1em height=1em viewBox="0 0 491.398 491.398" class="bi bi-chat-text-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+            <li class="nav-item active"><a class="nav-link" href="#home"><svg width=1em height=1em
+                        viewBox="0 0 491.398 491.398" class="bi bi-chat-text-fill" fill="currentColor"
+                        xmlns="https://www.w3.org/2000/svg">
                         <g>
                             <g id="Icons_19_">
-                                <path d="M481.765,220.422L276.474,15.123c-16.967-16.918-44.557-16.942-61.559,0.023L9.626,220.422 c-12.835,12.833-12.835,33.65,0,46.483c12.843,12.842,33.646,12.842,46.487,0l27.828-27.832v214.872 c0,19.343,15.682,35.024,35.027,35.024h74.826v-97.62c0-7.584,6.146-13.741,13.743-13.741h76.352 c7.59,0,13.739,6.157,13.739,13.741v97.621h74.813c19.346,0,35.027-15.681,35.027-35.024V239.091l27.812,27.815 c6.425,6.421,14.833,9.63,23.243,9.63c8.408,0,16.819-3.209,23.242-9.63C494.609,254.072,494.609,233.256,481.765,220.422z">
+                                <path
+                                    d="M481.765,220.422L276.474,15.123c-16.967-16.918-44.557-16.942-61.559,0.023L9.626,220.422 c-12.835,12.833-12.835,33.65,0,46.483c12.843,12.842,33.646,12.842,46.487,0l27.828-27.832v214.872 c0,19.343,15.682,35.024,35.027,35.024h74.826v-97.62c0-7.584,6.146-13.741,13.743-13.741h76.352 c7.59,0,13.739,6.157,13.739,13.741v97.621h74.813c19.346,0,35.027-15.681,35.027-35.024V239.091l27.812,27.815 c6.425,6.421,14.833,9.63,23.243,9.63c8.408,0,16.819-3.209,23.242-9.63C494.609,254.072,494.609,233.256,481.765,220.422z">
                             </g>
                         </g>
                     </svg><span class="d-none d-lg-block"> Home </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#couple"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
+            <li class="nav-item"><a class="nav-link" href="#couple"><svg width=1em height=1em viewBox="0 0 16 16"
+                        class="bi bi-heart-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"></path>
                     </svg><span class="d-none d-lg-block"> Couple </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#event"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-calendar2-check-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 3.5c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5v-1zm8.854 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z">
+            <li class="nav-item"><a class="nav-link" href="#event"><svg width=1em height=1em viewBox="0 0 16 16"
+                        class="bi bi-calendar2-check-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 3.5c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5v-1zm8.854 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z">
                         </path>
                     </svg><span class="d-none d-lg-block"> Event </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#gallery"><svg width=1.0625em height=1em viewBox="0 0 17 16" class="bi bi-image-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15.002 9.5V13a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-1zm5-6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
+            <li class="nav-item"><a class="nav-link" href="#gallery"><svg width=1.0625em height=1em viewBox="0 0 17 16"
+                        class="bi bi-image-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15.002 9.5V13a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-1zm5-6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z">
                         </path>
                     </svg><span class="d-none d-lg-block"> Gallery </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#story"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-chat-text-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z">
+            <li class="nav-item"><a class="nav-link" href="#story"><svg width=1em height=1em viewBox="0 0 16 16"
+                        class="bi bi-chat-text-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z">
                         </path>
                     </svg><span class="d-none d-lg-block"> Story </span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#guestbook"><svg width=1em height=1em viewBox="0 0 16 16" class="bi bi-chat-left-dots-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
+            <li class="nav-item"><a class="nav-link" href="#guestbook"><svg width=1em height=1em viewBox="0 0 16 16"
+                        class="bi bi-chat-left-dots-fill" fill="currentColor" xmlns="https://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
                         </path>
                     </svg><span class="d-none d-lg-block"> Guest Book </span></a></li>
         </ul>
     </nav>
-    <section style="background:url(./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg) center center no-repeat;" class="cover" id="home">
+    <section
+        style="background:url(./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg) center center no-repeat;"
+        class="cover" id="home">
         <div class="title text-center text-white">
             <div data-aos="fade-up" data-aos-delay="200">
                 <div class="d-flex justify-content-center">
@@ -113,27 +130,31 @@ if (isset($_GET['guest'])) {
     </section>
 
 
-    <section style="background:url(./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg) center center no-repeat;" class="curved page-holder bg-cover" id="particles-js">
+    <section
+        style="background:url(./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg) center center no-repeat;"
+        class="curved page-holder bg-cover" id="particles-js">
         <div class="container">
             <header class="text-center text-white vh-100 row align-items-center justify-content-center">
                 <div class="col">
                     <br><br><br>
-                    <img src=./themes/dancingpiano/images/flower.png alt="flower" style="max-width:100px;max-height:100px;margin-bottom:50px">
+                    <img src=./themes/dancingpiano/images/flower.png alt="flower"
+                        style="max-width:100px;max-height:100px;margin-bottom:50px">
                     <h3>The Wedding Of</h3>
                     <h1 class="display-1 font-weight-bold mb-4">Nisa & Teguh</h1>
                     <p class="date-sparator mb-3">13 August 2022</p>
                     <?php if (isset($_GET['guest'])) { ?>
-                        <div class="mb-1 to">
-                            <i>Kepada Yth <br> Bapak/Ibu/Saudara/i</i>
-                            <h5 class="font-weight-bold mt-1"><?php echo $_GET['guest']; ?></h5>
-                            <span class="font-italic"> di Yogyakarta </span>
-                        </div>
+                    <div class="mb-1 to">
+                        <i>Kepada Yth <br> Bapak/Ibu/Saudara/i</i>
+                        <h5 class="font-weight-bold mt-1"><?php echo $_GET['guest']; ?></h5>
+                        <span class="font-italic"> di Tempat </span>
+                    </div>
                     <?php } ?>
 
                 </div>
             </header>
         </div>
-        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28 " preserveAspectRatio="none">
             <defs>
                 <path id="gentle-wave" d="M-160 44c30 0
         58-18 88-18s
@@ -163,19 +184,28 @@ if (isset($_GET['guest'])) {
             </div>
             <div class="col-md-12 pt-4">
                 <div style="max-width:500px;margin:auto">
-                    <div style="font-weight:bold;border-bottom:solid 1px #000;display:inline-block;margin-bottom:10px;font-size:1.1rem;">
+                    <div
+                        style="font-weight:bold;border-bottom:solid 1px #000;display:inline-block;margin-bottom:10px;font-size:1.1rem;">
                         Protokol Covid-19</div> <br>
-                    <p>Dalam upaya mengurangi penyebaran Covid 19 pada masa pandemi, kami harapkan kedatangan para tamu undangan agar menjalankan protokol yang berlaku.</p>
+                    <p>Dalam upaya mengurangi penyebaran Covid 19 pada masa pandemi, kami harapkan kedatangan para tamu
+                        undangan agar menjalankan protokol yang berlaku.</p>
                     <table style="font-size:0.9rem;margin:auto">
                         <tbody>
                             <tr>
-                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/masker.png alt="masker" style="max-width:80px"><br> Wajib Menggunakan Masker</td>
-                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/distance.png alt="distance" style="max-width:80px"><br> Saling Menjaga Jarak di Dalam Acara</td>
+                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/masker.png alt="masker"
+                                        style="max-width:80px"><br> Wajib Menggunakan Masker</td>
+                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/distance.png
+                                        alt="distance" style="max-width:80px"><br> Saling Menjaga Jarak di Dalam Acara
+                                </td>
                             </tr>
                             <tr>
-                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/salam.png alt="salam" style="max-width:80px"><br> Menggunakan salam namastee sebagai ganti berjabat tangan
+                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/salam.png alt="salam"
+                                        style="max-width:80px"><br> Menggunakan salam namastee sebagai ganti berjabat
+                                    tangan
                                 </td>
-                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/wash.png alt="wash" style="max-width:80px"><br> Jaga Kebersihan dengan Mencuci Tangan atau Handsanitizer
+                                <td width=50%> <img src=https://www.deinvitee.com/image/protocol/wash.png alt="wash"
+                                        style="max-width:80px"><br> Jaga Kebersihan dengan Mencuci Tangan atau
+                                    Handsanitizer
                                 </td>
                             </tr>
                         </tbody>
@@ -186,18 +216,23 @@ if (isset($_GET['guest'])) {
     </section>
 
     <section class="couple" id="couple">
-        <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px" data-aos="zoom-in" data-aos-delay="100">
-        <div class="d-flex w-100 align-items-center justify-content-center mb-3" data-aos="flip-up" data-aos-delay="200">
+        <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px"
+            data-aos="zoom-in" data-aos-delay="100">
+        <div class="d-flex w-100 align-items-center justify-content-center mb-3" data-aos="flip-up"
+            data-aos-delay="200">
             <h2 class="caption"> Bride & Groom </h2>
         </div>
 
         <div class="container" data-aos="fade-up">
-            <i>Assalamu’alaikum Warahmatullahi Wabarakatuh</i><br><br> Maha suci Allah SWT yang telah menciptakan makhluk-Nya berpasang-pasangan.<br> Ya Allah, perkenankanlah kami merangkai kasih sayang yang Kau ciptakan di antara putra-putri kami:<br><br>
+            <i>Assalamu’alaikum Warahmatullahi Wabarakatuh</i><br><br> Maha suci Allah SWT yang telah menciptakan
+            makhluk-Nya berpasang-pasangan.<br> Ya Allah, perkenankanlah kami merangkai kasih sayang yang Kau ciptakan
+            di antara putra-putri kami:<br><br>
         </div>
 
         <div class="col-lg-7 mx-auto mb-5">
             <div class="row">
-                <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="col-lg-5 text-center couples ">
+                <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000"
+                    class="col-lg-5 text-center couples ">
                     <div class="row">
                         <div class="col-12 px-5">
                             <div class="couple-ring">
@@ -215,13 +250,16 @@ if (isset($_GET['guest'])) {
                             <p class="m-0" style="color:#111">Ds. Kertamulya Kec. Padalarang</p>
                             <p class="m-0" style="color:#111">Bandung</p>
                             <div class="mt-4 socmed">
-                                <a href="https://instagram.com/" rel="nofollow" target="_blank"><img src=./images/instagram.png width=20px alt="instagram"></a>
-                                <a href="https://twitter.com/" rel="nofollow" target="_blank"><img src=./images/twitter.png width=20px alt="twitter"></a>
+                                <a href="https://instagram.com/" rel="nofollow" target="_blank"><img
+                                        src=./images/instagram.png width=20px alt="instagram"></a>
+                                <a href="https://twitter.com/" rel="nofollow" target="_blank"><img
+                                        src=./images/twitter.png width=20px alt="twitter"></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="100" data-aos-duration="1000" class="col-lg-5 text-center couples  order-1 ">
+                <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-delay="100" data-aos-duration="1000"
+                    class="col-lg-5 text-center couples  order-1 ">
                     <div class="row">
                         <div class="col-12 px-5">
                             <div class="couple-ring">
@@ -242,23 +280,29 @@ if (isset($_GET['guest'])) {
                             <p class="m-0" style="color:#111">Garut
                             </p>
                             <div class="mt-4 socmed">
-                                <a href="https://instagram.com/teguhmusa" rel="nofollow" target="_blank"><img src=./images/instagram.png width=20px alt="instagram"></a>
-                                <a href="https://twitter.com/teguhmusa" rel="nofollow" target="_blank"><img src=./images/twitter.png width=20px alt="twitter"></a>
+                                <a href="https://instagram.com/teguhmusa" rel="nofollow" target="_blank"><img
+                                        src=./images/instagram.png width=20px alt="instagram"></a>
+                                <a href="https://twitter.com/teguhmusa" rel="nofollow" target="_blank"><img
+                                        src=./images/twitter.png width=20px alt="twitter"></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="col-lg-2 end text-center">
+                <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                    class="col-lg-2 end text-center">
                     &
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="location" id="event" style="background:url(./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg) center center no-repeat;background-size: cover;">
+    <section class="location" id="event"
+        style="background:url(./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg) center center no-repeat;background-size: cover;">
         <div class="container py-5">
-            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px" data-aos="zoom-in" data-aos-delay="100">
-            <div class="d-flex w-100 align-items-center justify-content-center mb-5" data-aos="flip-up" data-aos-delay="200">
+            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px"
+                data-aos="zoom-in" data-aos-delay="100">
+            <div class="d-flex w-100 align-items-center justify-content-center mb-5" data-aos="flip-up"
+                data-aos-delay="200">
                 <h2 class="caption">Wedding Schedule</h2>
             </div>
             <div class="row row-eq-height justify-content-center">
@@ -281,7 +325,8 @@ if (isset($_GET['guest'])) {
                                 <hr>
                             </h3>
                             <p class="desc-location mt-3">
-                                08:00 - 14:00 WIB <br> Jl. Hegarmanah, RT.01/RW.03, Sukatani, Kec. Padalarang, Bandung Barat
+                                08:00 - 14:00 WIB <br> Jl. Hegarmanah, RT.01/RW.03, Sukatani, Kec. Padalarang, Bandung
+                                Barat
                             </p>
                         </div>
                     </div>
@@ -311,7 +356,8 @@ if (isset($_GET['guest'])) {
                 </div-->
             </div>
         </div>
-        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28 " preserveAspectRatio="none">
             <defs>
                 <path id="gentle-wave" d="M-160 44c30 0
         58-18 88-18s
@@ -337,39 +383,44 @@ if (isset($_GET['guest'])) {
 
     <section class="gallery" id="gallery">
         <div class="container mb-5">
-            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px" data-aos="zoom-in" data-aos-delay="100">
-            <div class="d-flex w-100 align-items-center justify-content-center mb-5" data-aos="flip-up" data-aos-delay="200">
+            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px"
+                data-aos="zoom-in" data-aos-delay="100">
+            <div class="d-flex w-100 align-items-center justify-content-center mb-5" data-aos="flip-up"
+                data-aos-delay="200">
                 <h2 class="caption">Our Gallery</h2>
             </div>
 
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-md-4 col-6 py-2 px-2 frame" data-aos="zoom-in" data-aos-delay="100">
-                        <a href="./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg"><img src=./uploads/thumbs/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae8K.jpeg alt="Gallery 1" class="img-fluid w-100"></a>
+                        <a href="./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae8K.jpeg"><img
+                                src=./uploads/thumbs/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae8K.jpeg
+                                alt="Gallery 1" class="img-fluid w-100"></a>
                     </div>
                     <div class="col-md-4 col-6 py-2 px-2 frame" data-aos="zoom-in" data-aos-delay="200">
-                        <a href="./uploads/original/gallery/1cbaa33e50316ef623dae32f233629e6d087bdcd.jpeg"><img src=./uploads/thumbs/gallery/1cbaa33e50316ef623dae32f233629e6d087bdcdYE.jpeg alt="Gallery 2" class="img-fluid w-100"></a>
+                        <a href="./uploads/original/gallery/1cbaa33e50316ef623dae32f233629e6d087bdcdYE.jpeg"><img
+                                src=./uploads/thumbs/gallery/1cbaa33e50316ef623dae32f233629e6d087bdcdYE.jpeg
+                                alt="Gallery 2" class="img-fluid w-100"></a>
                     </div>
                     <div class="col-md-4 col-6 py-2 px-2 frame" data-aos="zoom-in" data-aos-delay="300">
-                        <a href="./uploads/original/gallery/f10c31a3185d4804341b9f8945af275a5167ebc8.jpeg"><img src=./uploads/thumbs/gallery/f10c31a3185d4804341b9f8945af275a5167ebc8mU.jpeg alt="Gallery 3" class="img-fluid w-100"></a>
+                        <a href="./uploads/original/gallery/f10c31a3185d4804341b9f8945af275a5167ebc8mU.jpeg"><img
+                                src=./uploads/thumbs/gallery/f10c31a3185d4804341b9f8945af275a5167ebc8mU.jpeg
+                                alt="Gallery 3" class="img-fluid w-100"></a>
                     </div>
                     <div class="col-md-4 col-6 py-2 px-2 frame" data-aos="zoom-in" data-aos-delay="400">
-                        <a href="./uploads/original/gallery/453d5ca3f815f6bbf5392e6920faad65014a92d1.jpeg"><img src=./uploads/thumbs/gallery/453d5ca3f815f6bbf5392e6920faad65014a92d1Z6.jpeg alt="Gallery 4" class="img-fluid w-100"></a>
+                        <a href="./uploads/original/gallery/453d5ca3f815f6bbf5392e6920faad65014a92d1Z6.jpeg"><img
+                                src=./uploads/thumbs/gallery/453d5ca3f815f6bbf5392e6920faad65014a92d1Z6.jpeg
+                                alt="Gallery 4" class="img-fluid w-100"></a>
                     </div>
                     <div class="col-md-4 col-6 py-2 px-2 frame" data-aos="zoom-in" data-aos-delay="500">
-                        <a href="./uploads/original/gallery/99e0242bcacc38b141b40d4b1a17a07ae4307ce6.jpeg"><img src=./uploads/thumbs/gallery/99e0242bcacc38b141b40d4b1a17a07ae4307ce60E.jpeg alt="Gallery 5" class="img-fluid w-100"></a>
+                        <a href="./uploads/original/gallery/99e0242bcacc38b141b40d4b1a17a07ae4307ce60E.jpeg"><img
+                                src=./uploads/thumbs/gallery/99e0242bcacc38b141b40d4b1a17a07ae4307ce60E.jpeg
+                                alt="Gallery 5" class="img-fluid w-100"></a>
                     </div>
                     <div class="col-md-4 col-6 py-2 px-2 frame" data-aos="zoom-in" data-aos-delay="600">
-                        <a href="./uploads/original/gallery/5f0d74468e4335a7fcb6f7c219e799b75f5779c8.jpg"><img src=./uploads/thumbs/gallery/5f0d74468e4335a7fcb6f7c219e799b75f5779c8Em.jpg alt="Gallery 6" class="img-fluid w-100"></a>
-                    </div>
-                    <div class="col-md-4 col-6 py-2 px-2 frame" data-aos="zoom-in" data-aos-delay="700">
-                        <a href="./uploads/original/gallery/e40e06d62ba1a7b6185f1e0943b573ea6f74601d.jpg"><img src=./uploads/thumbs/gallery/e40e06d62ba1a7b6185f1e0943b573ea6f74601dXD.jpg alt="Gallery 7" class="img-fluid w-100"></a>
-                    </div>
-                    <div class="col-md-4 col-6 py-2 px-2 frame" data-aos="zoom-in" data-aos-delay="800">
-                        <a href="./uploads/original/gallery/df2072124a6e7ff69315e57f6c95a6ad584663bf.jpg"><img src=./uploads/thumbs/gallery/df2072124a6e7ff69315e57f6c95a6ad584663bfRy.jpg alt="Gallery 8" class="img-fluid w-100"></a>
-                    </div>
-                    <div class="col-md-4 col-6 py-2 px-2 frame" data-aos="zoom-in" data-aos-delay="900">
-                        <a href="./uploads/original/gallery/428996a2958c2218459c505a5d7becaa96a11533.jpg"><img src=./uploads/thumbs/gallery/428996a2958c2218459c505a5d7becaa96a11533kd.jpg alt="Gallery 9" class="img-fluid w-100"></a>
+                        <a href="./uploads/original/gallery/5f0d74468e4335a7fcb6f7c219e799b75f5779c8Em.jpg"><img
+                                src=./uploads/thumbs/gallery/5f0d74468e4335a7fcb6f7c219e799b75f5779c8Em.jpg
+                                alt="Gallery 6" class="img-fluid w-100"></a>
                     </div>
                 </div>
             </div>
@@ -380,26 +431,51 @@ if (isset($_GET['guest'])) {
 
     <section class="story" id="story">
         <div class="container">
-            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px" data-aos="zoom-in" data-aos-delay="100">
-            <div class="d-flex w-100 align-items-center justify-content-center mb-5" data-aos="flip-up" data-aos-delay="200">
+            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px"
+                data-aos="zoom-in" data-aos-delay="100">
+            <div class="d-flex w-100 align-items-center justify-content-center mb-5" data-aos="flip-up"
+                data-aos-delay="200">
                 <h2 class="caption">Our Love Story</h2>
             </div>
             <div class="col-lg-8 mx-auto">
                 <div class="owl-carousel owl-theme" data-aos="fade-up" data-aos-delay="200">
                     <div class="item">
                         <h3>Awal Perkenalan</h3>
-                        <p>Berawal dari dm instagram dan saling berkenalan</p>
-                        <small><i><b>05 June 2019</b> </i></small>
+                        <p>Pertengahan Mei adalah pertama kami saling kenal dan memutuskan untuk mengenal lebih lanjut
+                            beberapa lama setelahnya, meski harus ada sedikit drama terkait covid issue. Maklum, saat
+                            itu virusnya sedang pesta dan jarak tinggal kami juga sejauh D ke Z</p>
+                        <small><i><b>Mei 2021</b> </i></small>
                     </div>
                     <div class="item">
-                        <h3>Menjalin Hubungan</h3>
-                        <p>memulai kisah bersama sampai saat ini</p>
-                        <small><i><b>24 July 2019</b> </i></small>
+                        <h3>Masa Penjajakan</h3>
+                        <p>Di akhir bulan Agustus, niat kami bertemu akhirnya terlaksana juga dan sepertinya
+                            masing-masing membawa kesan yg baik sehingga hubungan terus berlanjut</p>
+                        <small><i><b>Agustus-Januari 2022</b> </i></small>
                     </div>
                     <div class="item">
-                        <h3>Tunangan</h3>
-                        <p>One step closer menuju jenjang yang lebih serius</p>
-                        <small><i><b>04 January 2020</b> </i></small>
+                        <h3>Pertemuan Keluarga</h3>
+                        <p>Alhamdulillaah, niat baik kami didukung oleh keluarga masing-masing dan kedua keluarga saling
+                            bertemu untuk silaturahmi diiringi maksud menegaskan hubungan kami ke depannya seperti apa
+                        </p>
+                        <p>Kemudian di bulan Maret kedua kalinya masing-masing keluarga bertemu dan di sinilah
+                            diputuskan tanggal 13 Agustus menjadi tanggal pernikahan.
+                        </p>
+                        <small><i><b>Februari-Maret 2022</b> </i></small>
+                    </div>
+                    <div class="item">
+                        <h3>Persiapan Pernikahan</h3>
+                        <p>Periode ini menjadi masa-masa kami mempersiapkan serba-serbi pernikahan: mulai dari
+                            budgeting, kelengkapan dokumen, penentuan vendor, dan persiapan-persiapan pendukung lainnya
+                        </p>
+                        <small><i><b>April-Juli 2022</b> </i></small>
+                    </div>
+                    <div class="item">
+                        <h3>Menikah</h3>
+                        <p>Setelah melewati proses panjang nan singkat tersebut, alhamdulillaah akhirnya we're getting
+                            married! InsyaAllah ini menjadi langkah awal kami membangun keluarga yang semoga sakinah,
+                            mawaddah,warahmah. Harapannya pernikahan ini juga dapat menjadi penyambung silaturahmi kedua
+                            keluarga dan menjadi ikhtiar kami dalam menyempurnakan ibadah. Aamiin</p>
+                        <small><i><b>13 Agustus 2022</b> </i></small>
                     </div>
                 </div>
             </div>
@@ -407,15 +483,19 @@ if (isset($_GET['guest'])) {
     </section>
 
 
-    <section class="parallax text-center mt-5" style="background-image: url(./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg);">
+    <section class="parallax text-center mt-5"
+        style="background-image: url(./uploads/original/gallery/9cd012cb300fe4658958a2cb4b4f6073fe7433ae.jpeg);">
         <div class="container">
             <div class="col-md-12 p-4 mt-5">
-                <p><span>"</span>Dan diantara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri, supaya kamu’cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang. Sesungguhnya
+                <p><span>"</span>Dan diantara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari
+                    jenismu sendiri, supaya kamu’cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu
+                    rasa kasih dan sayang. Sesungguhnya
                     pada yang demikian itu benar-benar terdapat tanda-tanda bagi Kaum yang berpikir<span>"</span></p>
                 <h3 class="mb-5">QS. Ar-Rum: 21</h3>
             </div>
         </div>
-        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28 " preserveAspectRatio="none">
             <defs>
                 <path id="gentle-wave" d="M-160 44c30 0
         58-18 88-18s
@@ -442,8 +522,10 @@ if (isset($_GET['guest'])) {
 
     <section id="countdown">
         <div class="container text-center mt-5">
-            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px" data-aos="zoom-in" data-aos-delay="100">
-            <div class="d-flex w-100 align-items-center justify-content-center mb-5" data-aos="flip-up" data-aos-delay="200">
+            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px"
+                data-aos="zoom-in" data-aos-delay="100">
+            <div class="d-flex w-100 align-items-center justify-content-center mb-5" data-aos="flip-up"
+                data-aos-delay="200">
                 <h2 class="caption">Countdown</h2>
             </div>
             <div class="col-lg-8 mt-5 mx-auto">
@@ -493,8 +575,12 @@ if (isset($_GET['guest'])) {
             </div>
 
             <section class="text-center pt-0">
-                <iframe width=100% height=300 id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126756.8530537772!2d107.49162069608131!3d-6.8724250404105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e36d677fe355%3A0xf1920d64158deefa!2sHegarmanah%20Outdoor%20Wedding!5e0!3m2!1sen!2sid!4v1652458760125!5m2!1sen!2sid&language=id" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=-6.8384825,107.4936974&zoom=20" class="btn btn-secondary mt-5 mx-1" data-aos="fade-up" data-aos-delay="500">Open Google Map</a>
+                <iframe width=100% height=300 id="gmap_canvas"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126756.8530537772!2d107.49162069608131!3d-6.8724250404105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e36d677fe355%3A0xf1920d64158deefa!2sHegarmanah%20Outdoor%20Wedding!5e0!3m2!1sen!2sid!4v1652458760125!5m2!1sen!2sid&language=id"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a target="_blank"
+                    href="https://www.google.com/maps/dir/?api=1&destination=-6.8384825,107.4936974&zoom=20"
+                    class="btn btn-secondary mt-5 mx-1" data-aos="fade-up" data-aos-delay="500">Open Google Map</a>
             </section>
 
         </div>
@@ -503,8 +589,10 @@ if (isset($_GET['guest'])) {
 
     <section class="guestbook" id="guestbook">
         <div class="container">
-            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px" data-aos="zoom-in" data-aos-delay="100">
-            <div class="d-flex w-100 mb-5 align-items-center justify-content-center" data-aos="flip-up" data-aos-delay="200">
+            <img src=./themes/dancingpiano/images/flower-2.png alt="list" class="mb-3" style="max-height:50px"
+                data-aos="zoom-in" data-aos-delay="100">
+            <div class="d-flex w-100 mb-5 align-items-center justify-content-center" data-aos="flip-up"
+                data-aos-delay="200">
                 <h2 class="caption">Guest Book</h2>
             </div>
         </div>
@@ -517,7 +605,9 @@ if (isset($_GET['guest'])) {
                             <input type=hidden name=coupleId value="nisateguh">
                             <div class="form-group">
                                 <label for="guestName">Nama</label>
-                                <input type=text class="form-control" id="guestName" name=sender value="<?php echo $_GET['guest']; ?>" placeholder="Your Name" autocomplete="off" required>
+                                <input type=text class="form-control" id="guestName" name=sender
+                                    value="<?php echo $_GET['guest']; ?>" placeholder="Your Name" autocomplete="off"
+                                    required>
                             </div>
                             <div class="form-group">
                                 <label for="attendance">Kedatangan</label>
@@ -531,7 +621,9 @@ if (isset($_GET['guest'])) {
                                 <textarea class="form-control" id="message" name=message rows="3" required></textarea>
                             </div>
                             <div class="text-center">
-                                <button type=submit class="btn btn_1 btn-secondary">Kirim <img src=https://www.deinvitee.com/images/send-b.png alt="send icon" style="width:20px;margin-left:5px"></button>
+                                <button type=submit class="btn btn_1 btn-secondary">Kirim <img
+                                        src=https://www.deinvitee.com/images/send-b.png alt="send icon"
+                                        style="width:20px;margin-left:5px"></button>
                             </div>
                             <h3 id="success">
                             </h3>
@@ -546,25 +638,26 @@ if (isset($_GET['guest'])) {
                 <div class="row justify-content-md-center">
                     <div class="showComment"></div>
                     <script type="text/javascript">
-                        $('.showComment').load("https://nisateguh.deinvitee.com/php/show_comment.php");
+                    $('.showComment').load("https://nisateguh.deinvitee.com/php/show_comment.php");
 
-                        function formSubmit() {
-                            $.ajax({
-                                type: 'POST',
-                                url: 'https://www.deinvitee.com/php/master.php?menu=guest&act=simpan',
-                                data: $('#inputform').serialize(),
-                                success: function(response) {
-                                    $('#success').html(response);
-                                    $('.showComment').load("https://nisateguh.deinvitee.com/php/show_comment.php");
-                                    setTimeout(function() {
-                                        //alert(response); // this is not calling
-                                        $('#success').html('');
-                                    }, 2500);
-                                }
-                            });
-                            var form = document.getElementById('inputform').reset();
-                            return false;
-                        }
+                    function formSubmit() {
+                        $.ajax({
+                            type: 'POST',
+                            url: 'https://www.deinvitee.com/php/master.php?menu=guest&act=simpan',
+                            data: $('#inputform').serialize(),
+                            success: function(response) {
+                                $('#success').html(response);
+                                $('.showComment').load(
+                                    "https://nisateguh.deinvitee.com/php/show_comment.php");
+                                setTimeout(function() {
+                                    //alert(response); // this is not calling
+                                    $('#success').html('');
+                                }, 2500);
+                            }
+                        });
+                        var form = document.getElementById('inputform').reset();
+                        return false;
+                    }
                     </script>
                 </div>
             </div>
@@ -573,7 +666,8 @@ if (isset($_GET['guest'])) {
     <footer>
         <div class="container">
             <div class="col-md-12">
-                <a href="https://deinvitee.com" title="Undangan Pernikahan Online"><img src=https://www.deinvitee.com/image/logo.png alt="Logo musaharpa"></a>
+                <a href="https://deinvitee.com" title="Undangan Pernikahan Online"><img
+                        src=https://www.deinvitee.com/image/logo.png alt="Logo musaharpa"></a>
                 <small>Online Website Invitation</small>
             </div>
         </div>
@@ -583,7 +677,8 @@ if (isset($_GET['guest'])) {
             <source src=./uploads/musics/8I69mL8M55.mp3 type=audio/mp3>
         </audio>
     </div>
-    <div class="play-pause btn-play-pause" id="button-control"><img src=./images/play-pause.svg alt="play pause" width=25px></div>
+    <div class="play-pause btn-play-pause" id="button-control"><img src=./images/play-pause.svg alt="play pause"
+            width=25px></div>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.3/simple-lightbox.min.js></script>
@@ -593,28 +688,31 @@ if (isset($_GET['guest'])) {
     <script src=./js/musicv2.js?v=1.0.0></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js></script>
     <script>
-        AOS.init();
-        $('.gallery a').simpleLightbox({
-            docClose: false,
-            disableScroll: true,
-            disableRightClick: true
-        });
-        var countDownDate = new Date("13 August 2022 11:00:00").getTime(),
-            x = setInterval(function() {
-                var e = (new Date).getTime(),
-                    n = countDownDate - e,
-                    t = Math.floor(n / 864e5),
-                    a = Math.floor(n % 864e5 / 36e5),
-                    o = Math.floor(n % 36e5 / 6e4),
-                    m = Math.floor(n % 6e4 / 1e3);
-                document.getElementsByClassName("days")[0].innerHTML = t, document.getElementsByClassName("hours")[0].innerHTML = a, document.getElementsByClassName("minutes")[0].innerHTML = o, document.getElementsByClassName("seconds")[0].innerHTML = m, n < 0 && (clearInterval(x), document.getElementsByClassName("expired").innerHTML = "EXPIRED")
-            }, 1e3);
+    AOS.init();
+    $('.gallery a').simpleLightbox({
+        docClose: false,
+        disableScroll: true,
+        disableRightClick: true
+    });
+    var countDownDate = new Date("13 August 2022 11:00:00").getTime(),
+        x = setInterval(function() {
+            var e = (new Date).getTime(),
+                n = countDownDate - e,
+                t = Math.floor(n / 864e5),
+                a = Math.floor(n % 864e5 / 36e5),
+                o = Math.floor(n % 36e5 / 6e4),
+                m = Math.floor(n % 6e4 / 1e3);
+            document.getElementsByClassName("days")[0].innerHTML = t, document.getElementsByClassName("hours")[0]
+                .innerHTML = a, document.getElementsByClassName("minutes")[0].innerHTML = o, document
+                .getElementsByClassName("seconds")[0].innerHTML = m, n < 0 && (clearInterval(x), document
+                    .getElementsByClassName("expired").innerHTML = "EXPIRED")
+        }, 1e3);
     </script>
     <script src=./themes/dancingpiano/custom.js></script>
     <script>
-        window.addEventListener("contextmenu", function(e) {
-            e.preventDefault()
-        }, !1);
+    window.addEventListener("contextmenu", function(e) {
+        e.preventDefault()
+    }, !1);
     </script>
 </body>
 
